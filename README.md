@@ -1,6 +1,6 @@
 # Sedap — restoran admin paneli
 
-Namuna: https://themeforest.net/item/sedap-modern-restaurant-admin-dashboard-xd-template/31129012
+Shablon: https://themeforest.net/item/sedap-modern-restaurant-admin-dashboard-xd-template/31129012
 
 Stek: React + Vite, React Router, Tailwind CSS, grafiklar uchun Recharts. Ma'lumotlar hozircha `src/data/*.json` dan olinadi (backend yo'q).
 
@@ -15,7 +15,7 @@ Stek: React + Vite, React Router, Tailwind CSS, grafiklar uchun Recharts. Ma'lum
 
 Har kim o'z sahifasi uchun `src/data/` da o'z JSON faylini yaratadi: `orders.json`, `customers.json`, `reviews.json`, `foods.json`.
 
-Batafsil vazifalar: https://github.com/256Project/sedap-dashboard/issues (har kimning o'z yorlig'i bor: akbar, sherzod, amirbek, salah)
+Vazifalar ro'yxati: [tasks.md](tasks.md). Batafsil vazifalar: https://github.com/256Project/sedap-dashboard/issues (har kimning o'z yorlig'i bor: akbar, sherzod, amirbek, salah)
 
 ## Tartib
 
