@@ -30,3 +30,50 @@ Vazifalar ro'yxati: [tasks.md](tasks.md). Batafsil vazifalar: https://github.com
 - Ish tayyor bo'lsa — Pull Request ochiladi, Akbar ko'rib chiqib merge qiladi.
 - Umumiy komponentlarni (Card, Button, Table) faqat Akbar o'zgartiradi; kerak bo'lsa unga yoziladi.
 - Commit xabarlari qisqa va tushunarli: `Order List: status filtri qo'shildi`.
+
+## Ishga tushirish
+
+Node.js 20.19+ yoki 22.12+ talab qilinadi (Node 24 ham mos).
+
+```bash
+npm install
+npm run dev
+```
+
+Production tekshiruvi: `npm run build`, keyin `npm run preview`.
+
+## Karkas tuzilmasi
+
+- `src/pages/` — har bir sahifa uchun alohida komponent.
+- `src/layouts/AppLayout.jsx` — Sidebar, Header va sahifa kontenti.
+- `src/components/layout/` — Sidebar va Header (Akbar).
+- `src/components/` — umumiy komponentlar (Akbar).
+- `src/styles/index.css` — Tailwind, ranglar va Barlow shrifti.
+- `src/data/` — mas’ullar yaratadigan JSON ma’lumotlar.
+- `src/App.jsx` — umumiy routing (o‘zgarishlar Akbar bilan kelishiladi).
+
+## Sahifa yo‘llari
+
+| Yo‘l | Komponent | Mas’ul |
+|---|---|---|
+| /dashboard | Dashboard | Akbar |
+| /orders | OrderList | Sherzod |
+| /orders/:id | OrderDetail | Sherzod |
+| /customers | CustomerList | Amirbek |
+| /analytics | Analytics | Salahitdinov |
+| /reviews | Reviews | Amirbek |
+| /foods | Foods | Salahitdinov |
+| /foods/:id | FoodDetail | Salahitdinov |
+| /customers/:id | CustomerDetail | Amirbek |
+| /calendar | Calendar | Sherzod |
+| /chat | Chat | Amirbek |
+| /wallet | Wallet | Akbar |
+| /foods/new | FoodCreate | Salahitdinov |
+| /foods/:id/edit | FoodEdit | Salahitdinov |
+| /login | Login | Akbar |
+
+Tafsilot sahifalaridagi `:id` haqiqiy yozuv identifikatori bilan almashtiriladi. Sidebar vaqtincha `demo` IDga yo‘naltiradi. Taom yaratish: `/foods/new`; tahrirlash: `/foods/:id/edit`.
+
+Hozirgi bosqich: routing va layout karkasi. Sahifalar placeholder; autentifikatsiya #8 vazifada qo‘shiladi. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
+
+Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.

@@ -7,15 +7,15 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 ## Akbar
 
 ### 1. Loyiha karkasi (#5)
-- [ ] Loyiha yaratish, papkalar tuzilmasi
-- [ ] Routing: barcha sahifalar uchun yo'l (bo'sh sahifa bo'lsa ham)
+- [x] Loyiha yaratish, papkalar tuzilmasi
+- [x] Routing: barcha sahifalar uchun yo'l (bo'sh sahifa bo'lsa ham)
 - [ ] Ranglar, shriftlar, ikonkalar namunadagidek
-- [ ] README ga ishga tushirish buyrug'i
+- [x] README ga ishga tushirish buyrug'i
 
 ### 2. Layout: Sidebar va Header (#6)
-- [ ] Sidebar: logotip, menyu (Dashboard, Order List, Order Detail, Customer, Analytics, Reviews, Foods, Food Detail, Customer Detail, Calendar, Chat, Wallet), faol punkt ajratilgan
-- [ ] Header: qidiruv, bildirishnomalar, xabarlar, profil
-- [ ] Telefonda sidebar yashirinadi, tugma bilan ochiladi
+- [x] Sidebar: logotip, menyu (Dashboard, Order List, Order Detail, Customer, Analytics, Reviews, Foods, Food Detail, Customer Detail, Calendar, Chat, Wallet), faol punkt ajratilgan
+- [x] Header: qidiruv, bildirishnomalar, xabarlar, profil
+- [x] Telefonda sidebar yashirinadi, tugma bilan ochiladi
 
 ### 3. Umumiy komponentlar (#7)
 - [ ] Card, Button, Badge (status), Table, Modal, Input, Select, Pagination, Tabs
