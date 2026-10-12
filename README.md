@@ -119,3 +119,5 @@ Agent muhitida 3 ta test o‘tdi va JSX transform tekshirildi. Vite build fayl r
 Foydalanuvchi lokal brauzerda panelni tekshirib, ishlashini tasdiqladi. Production build va barcha mobil o‘lchamlar tekshiruvi alohida bajariladi.
 
 Keyingi kod ko‘rigida haqiqiy ID uchun faol menyu, jadval qatorini bosish va Modal callback barqarorligi tuzatildi. Login va navigatsiya uchun jami 6 ta test mavjud.
+
+Mobil tekshiruv ro‘yxati: [docs/mobile-checklist.md](docs/mobile-checklist.md). Mobil/planshet tuzatishlari yozildi; vizual tekshiruv hali kutilmoqda.

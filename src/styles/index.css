@@ -22,3 +22,25 @@
 @media(max-width:399px){.stat-card{flex-direction:column;align-items:flex-start}.donut-chart{height:85px}.donut-chart>strong{font-size:18px}.donut-item p{font-size:11px}.donut-grid{gap:6px}.pagination{flex-wrap:wrap}.balance-card{padding:22px}.balance-card>strong{font-size:32px}}
 
 .ui-table .clickable-row { cursor: pointer; }
+
+/* Mobile and tablet refinements */
+.workspace { min-width: 0; }
+.table-scroll { max-width: 100%; overscroll-behavior-x: contain; }
+.sidebar { overscroll-behavior-y: contain; padding-bottom: max(24px, env(safe-area-inset-bottom)); }
+.card-heading > div { min-width: 0; }
+@media (max-width: 1023px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ui-field input, .ui-field select, .search-wrap input { font-size: 16px; }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .dashboard-upper, .dashboard-lower, .wallet-upper { grid-template-columns: 1fr; }
+  .wallet-chart { height: 280px; }
+}
+@media (max-width: 639px) {
+  .card-heading { flex-wrap: wrap; }
+  .ui-tabs button { min-height: 44px; }
+  .ui-modal { max-height: calc(100dvh - 32px); }
+  .wallet-totals strong { font-size: clamp(20px, 6vw, 24px); overflow-wrap: anywhere; }
+  .stat-card > div:last-child { min-width: 0; }
+  .stat-value { overflow-wrap: anywhere; }
+}
