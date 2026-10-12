@@ -8,12 +8,14 @@ Stek: React + Vite, React Router, Tailwind CSS, grafiklar uchun Recharts. Ma'lum
 
 | Kim | Qism | Sahifalar |
 |---|---|---|
-| **Akbar** (komilovakbar700) — jamoa sardori | Karkas va umumiy qism | Loyihani yaratish, routing, Sidebar, Header, ranglar va shriftlar, umumiy komponentlar (Card, Button, Table, Badge, Modal), **Dashboard** sahifasi |
-| **Sherzod** (maxsudovsherzod540) | Buyurtmalar | **Order List** (jadval, status bo'yicha filtr, qidiruv, sahifalash), **Order Detail** |
-| **Amirbek** (amirbek1288) | Mijozlar | **Customer List**, **Customer Detail**, **Reviews** (sharhlar ro'yxati, reyting) |
-| **Salahitdinov** (usalahitdinov2) | Menyu va tahlil | **Foods** (taomlar kartochkalari, qo'shish/tahrirlash), **Food Detail**, **Analytics** (grafiklar) |
+| **Akbar** (komilovakbar700) — jamoa sardori | Karkas va umumiy qism | Loyihani yaratish, routing, Sidebar, Header, ranglar va shriftlar, umumiy komponentlar (Card, Button, Table, Badge, Modal), **Login**, **Dashboard**, **Wallet** |
+| **Sherzod** (maxsudovsherzod540) | Buyurtmalar | **Order List** (jadval, status bo'yicha filtr, qidiruv, sahifalash), **Order Detail**, **Calendar** |
+| **Amirbek** (amirbek1288) | Mijozlar | **Customer List**, **Customer Detail**, **Reviews**, **Chat** |
+| **Salahitdinov** (usalahitdinov2) | Menyu va tahlil | **Foods** (taomlar kartochkalari, qo'shish/tahrirlash), **Food Detail**, taom qo'shish/tahrirlash, **Analytics** |
 
 Har kim o'z sahifasi uchun `src/data/` da o'z JSON faylini yaratadi: `orders.json`, `customers.json`, `reviews.json`, `foods.json`.
+
+Batafsil vazifalar: https://github.com/256Project/sedap-dashboard/issues (har kimning o'z yorlig'i bor: akbar, sherzod, amirbek, salah)
 
 ## Tartib
 
