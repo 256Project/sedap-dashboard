@@ -74,6 +74,46 @@ Production tekshiruvi: `npm run build`, keyin `npm run preview`.
 
 Tafsilot sahifalaridagi `:id` haqiqiy yozuv identifikatori bilan almashtiriladi. Sidebar vaqtincha `demo` IDga yo‘naltiradi. Taom yaratish: `/foods/new`; tahrirlash: `/foods/:id/edit`.
 
-Hozirgi bosqich: routing va layout karkasi. Sahifalar placeholder; autentifikatsiya #8 vazifada qo‘shiladi. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
+Login, Dashboard va Wallet amalga oshirilgan. Jamoaning qolgan sahifalari hozircha placeholder. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
 
 Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.
+
+## Demo kirish
+
+- Email: `admin@sedap.uz`
+- Parol: `Sedap123!`
+
+Backend yo‘qligi sababli bu faqat frontend demo autentifikatsiya. Sessiya `sessionStorage`da saqlanadi, tab yopilganda tugaydi. Haqiqiy autentifikatsiya server orqali alohida amalga oshirilishi kerak. Chiqish Header profil menyusida. Himoyalangan sahifaga kirilganda Login ochiladi va muvaffaqiyatli kirishdan keyin oldingi sahifaga qaytiladi.
+
+## Umumiy komponentlar
+
+Import: `import { Card, Button, Badge, Table, Modal, Input, Select, Pagination, Tabs } from '../components/ui';`
+
+Har bir komponentning interaktiv misoli: `/components`. Misol kodi: `src/pages/ComponentExamples.jsx`. Jamoa a’zolari ushbu komponentlardan foydalanishi kerak; o‘zgarishlar Akbar orqali.
+
+- Card: `title`, `description`, `action`, `children`.
+- Button: `variant=primary|secondary|danger`, `onClick`, `disabled`. Forma uchun `type="submit"`.
+- Badge: `status` yoki maxsus `children`.
+- Input: `label`, `value`, `onChange`, `error`.
+- Select: `options=[{value,label}]`, `value`, `onChange`.
+- Table: `columns=[{key,label,render?}]`, `data`, `rowKey` (default: id), `onRowClick`. Birinchi ustundagi tugma tafsilotni ochadi.
+- Modal: `open`, `onClose`, `title`, `children`. Native dialog fokusni ichkarida ushlab turadi. `onClose` uchun `useCallback` ishlating.
+- Pagination: `page` (1 dan), `pageSize`, `total`, `onChange`. Filtr o‘zgarsa sahifani 1 ga qaytaring.
+- Tabs: `options=[{value,label}]`, `value`, `onChange`.
+
+## Akbarning JSON ma’lumotlari
+
+- `dashboard.json`: day/week/month statistika, uchta donut, buyurtmalar, ikki yil daromadi va haftalik mijozlar. Davr tanlash barcha ko‘rsatkichlarni yangilaydi.
+- `wallet.json`: balans, haftalik kirim/chiqim, tranzaksiyalar. Qidiruv, status va kirim/chiqim filtrlari, sahifalash mavjud. Valyuta: USD (dizayn demosiga mos).
+- `auth.json`: faqat demo hisob ma’lumotlari.
+
+## Tekshirish
+
+`npm test` — login validatsiyasi, demo hisob va ichki redirect tekshiruvlari.
+`npm run build` — production build.
+
+Brauzerda: Login xatolari, muvaffaqiyatli kirish, oldingi sahifaga qaytish, logout, Dashboard davrlari, Wallet filtr/sahifalash, `/components` modali va 375/768/1440 px ko‘rinishlarni tekshiring.
+
+Agent muhitida 3 ta test o‘tdi va JSX transform tekshirildi. Vite build fayl ruxsatlari/timeout sabab yakunlanmadi; brauzer va mobil tekshiruvlar hali bajarilmagan.
+
+Foydalanuvchi lokal brauzerda panelni tekshirib, ishlashini tasdiqladi. Production build va barcha mobil o‘lchamlar tekshiruvi alohida bajariladi.
