@@ -64,7 +64,9 @@ export function Table({
   onRowClick,
   caption = 'Ma’lumotlar jadvali'
 }) {
-  return <div className="table-scroll"><table className="ui-table"><caption className="sr-only">{caption}</caption><thead><tr>{columns.map(column => <th key={column.key} scope="col">{column.label}</th>)}</tr></thead><tbody>{data.length ? data.map(row => <tr key={row[rowKey]}>{columns.map((column, index) => <td key={column.key}>{onRowClick && index === 0 ? <button className="table-row-link" onClick={() => onRowClick(row)}>{column.render ? column.render(row[column.key], row) : row[column.key]}</button> : column.render ? column.render(row[column.key], row) : row[column.key]}</td>)}</tr>) : <tr><td colSpan={columns.length} className="table-empty">{emptyMessage}</td></tr>}</tbody></table></div>;
+  return <div className="table-scroll"><table className="ui-table"><caption className="sr-only">{caption}</caption><thead><tr>{columns.map(column => <th key={column.key} scope="col">{column.label}</th>)}</tr></thead><tbody>{data.length ? data.map(row => <tr key={row[rowKey]} className={onRowClick ? "clickable-row" : undefined} onClick={onRowClick ? event => {
+          if (!event.target.closest("button, a, input, select, textarea, label, [role=button], [data-no-row-click]")) onRowClick(row);
+        } : undefined}>{columns.map((column, index) => <td key={column.key}>{onRowClick && index === 0 ? <button className="table-row-link" onClick={() => onRowClick(row)}>{column.render ? column.render(row[column.key], row) : row[column.key]}</button> : column.render ? column.render(row[column.key], row) : row[column.key]}</td>)}</tr>) : <tr><td colSpan={columns.length} className="table-empty">{emptyMessage}</td></tr>}</tbody></table></div>;
 }
 export function Pagination({
   page,
@@ -91,6 +93,10 @@ export function Modal({
 }) {
   const dialog = useRef(null);
   const heading = useId();
+  const closeCallback = useRef(onClose);
+  useEffect(() => {
+    closeCallback.current = onClose;
+  }, [onClose]);
   useEffect(() => {
     if (!open) return;
     const element = dialog.current;
@@ -98,7 +104,10 @@ export function Modal({
     const overflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     element.showModal();
-    const close = () => onClose();
+    const close = event => {
+      event.preventDefault();
+      closeCallback.current();
+    };
     element.addEventListener('cancel', close);
     return () => {
       element.removeEventListener('cancel', close);
@@ -106,7 +115,7 @@ export function Modal({
       document.body.style.overflow = overflow;
       previous?.focus();
     };
-  }, [open, onClose]);
+  }, [open]);
   if (!open) return null;
   return createPortal(<dialog ref={dialog} className="ui-modal" aria-labelledby={heading} onClick={event => {
     if (event.target === event.currentTarget) {

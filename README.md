@@ -96,8 +96,8 @@ Har bir komponentning interaktiv misoli: `/components`. Misol kodi: `src/pages/C
 - Badge: `status` yoki maxsus `children`.
 - Input: `label`, `value`, `onChange`, `error`.
 - Select: `options=[{value,label}]`, `value`, `onChange`.
-- Table: `columns=[{key,label,render?}]`, `data`, `rowKey` (default: id), `onRowClick`. Birinchi ustundagi tugma tafsilotni ochadi.
-- Modal: `open`, `onClose`, `title`, `children`. Native dialog fokusni ichkarida ushlab turadi. `onClose` uchun `useCallback` ishlating.
+- Table: `columns=[{key,label,render?}]`, `data`, `rowKey` (default: id), `onRowClick`. Qator yoki birinchi ustundagi tugma tafsilotni ochadi. Qatordagi boshqa tugmalar navigatsiya qilmaydi.
+- Modal: `open`, `onClose`, `title`, `children`. Native dialog fokusni ichkarida ushlab turadi.
 - Pagination: `page` (1 dan), `pageSize`, `total`, `onChange`. Filtr o‘zgarsa sahifani 1 ga qaytaring.
 - Tabs: `options=[{value,label}]`, `value`, `onChange`.
 
@@ -117,3 +117,5 @@ Brauzerda: Login xatolari, muvaffaqiyatli kirish, oldingi sahifaga qaytish, logo
 Agent muhitida 3 ta test o‘tdi va JSX transform tekshirildi. Vite build fayl ruxsatlari/timeout sabab yakunlanmadi; brauzer va mobil tekshiruvlar hali bajarilmagan.
 
 Foydalanuvchi lokal brauzerda panelni tekshirib, ishlashini tasdiqladi. Production build va barcha mobil o‘lchamlar tekshiruvi alohida bajariladi.
+
+Keyingi kod ko‘rigida haqiqiy ID uchun faol menyu, jadval qatorini bosish va Modal callback barqarorligi tuzatildi. Login va navigatsiya uchun jami 6 ta test mavjud.
