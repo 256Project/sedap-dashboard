@@ -7,38 +7,38 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 ## Akbar
 
 ### 1. Loyiha karkasi (#5)
-- [ ] Loyiha yaratish, papkalar tuzilmasi
-- [ ] Routing: barcha sahifalar uchun yo'l (bo'sh sahifa bo'lsa ham)
+- [x] Loyiha yaratish, papkalar tuzilmasi
+- [x] Routing: barcha sahifalar uchun yo'l (bo'sh sahifa bo'lsa ham)
 - [ ] Ranglar, shriftlar, ikonkalar namunadagidek
-- [ ] README ga ishga tushirish buyrug'i
+- [x] README ga ishga tushirish buyrug'i
 
 ### 2. Layout: Sidebar va Header (#6)
-- [ ] Sidebar: logotip, menyu (Dashboard, Order List, Order Detail, Customer, Analytics, Reviews, Foods, Food Detail, Customer Detail, Calendar, Chat, Wallet), faol punkt ajratilgan
-- [ ] Header: qidiruv, bildirishnomalar, xabarlar, profil
-- [ ] Telefonda sidebar yashirinadi, tugma bilan ochiladi
+- [x] Sidebar: logotip, menyu (Dashboard, Order List, Order Detail, Customer, Analytics, Reviews, Foods, Food Detail, Customer Detail, Calendar, Chat, Wallet), faol punkt ajratilgan
+- [x] Header: qidiruv, bildirishnomalar, xabarlar, profil
+- [x] Telefonda sidebar yashirinadi, tugma bilan ochiladi
 
 ### 3. Umumiy komponentlar (#7)
-- [ ] Card, Button, Badge (status), Table, Modal, Input, Select, Pagination, Tabs
-- [ ] Har biriga qisqa misol
+- [x] Card, Button, Badge (status), Table, Modal, Input, Select, Pagination, Tabs
+- [x] Har biriga qisqa misol
 - [ ] Boshqalar shu komponentlarni ishlatadi
 
 ### 4. Login sahifasi (#8)
-- [ ] Email va parol bilan kirish formasi
-- [ ] Xato xabarlari
-- [ ] Kirmagan foydalanuvchi panelga kira olmaydi
+- [x] Email va parol bilan kirish formasi
+- [x] Xato xabarlari
+- [x] Kirmagan foydalanuvchi panelga kira olmaydi
 
 ### 5. Dashboard (#9)
-- [ ] 4 ta statistika kartochkasi: jami buyurtmalar, yetkazilgan, bekor qilingan, daromad
-- [ ] Pie chart (umumiy, mijozlar o'sishi, daromad)
-- [ ] Chart Order: kunlik buyurtmalar grafigi
-- [ ] Total Revenue: oylar bo'yicha 2 yil taqqoslash
-- [ ] Customer Map: haftalik ustunli grafik
-- [ ] Davr tanlash: kun / hafta / oy
+- [x] 4 ta statistika kartochkasi: jami buyurtmalar, yetkazilgan, bekor qilingan, daromad
+- [x] Pie chart (umumiy, mijozlar o'sishi, daromad)
+- [x] Chart Order: kunlik buyurtmalar grafigi
+- [x] Total Revenue: oylar bo'yicha 2 yil taqqoslash
+- [x] Customer Map: haftalik ustunli grafik
+- [x] Davr tanlash: kun / hafta / oy
 
 ### 6. Wallet (#10)
-- [ ] Balans kartochkasi
-- [ ] Kirim/chiqim grafigi
-- [ ] Tranzaksiyalar ro'yxati: sana, summa, status, filtr
+- [x] Balans kartochkasi
+- [x] Kirim/chiqim grafigi
+- [x] Tranzaksiyalar ro'yxati: sana, summa, status, filtr
 
 ### 18. Yakuniy: telefon uchun moslash va deploy (#22)
 - [ ] Har bir sahifa telefonda tekshiriladi (hamma o'z sahifasini)
@@ -119,3 +119,7 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 - [ ] Buyurtmalar soni grafigi
 - [ ] Mijozlar soni o'sishi
 - [ ] Davr tanlash
+
+> Akbar paneli: komponentlar, Login, Dashboard va Wallet kodi yozildi. 3 ta login testi o‘tdi. Production build va brauzer/mobil tekshiruvlari ushbu muhitda yakunlanmadi; merge oldidan tekshiriladi.
+
+> Foydalanuvchi lokal brauzerda ishlashini tasdiqladi. Deploy hali bajarilmagan.

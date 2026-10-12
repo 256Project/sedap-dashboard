@@ -1,0 +1,449 @@
+{
+  "previousYear": 2025,
+  "currentYear": 2026,
+  "periods": {
+    "day": {
+      "stats": {
+        "orders": 75,
+        "delivered": 64,
+        "cancelled": 4,
+        "revenue": 1280
+      },
+      "changes": {
+        "orders": 4.2,
+        "delivered": 2.6,
+        "cancelled": -1.8,
+        "revenue": 8.4
+      },
+      "pies": [
+        {
+          "name": "Total Orders",
+          "value": 81,
+          "color": "#ff5b5b"
+        },
+        {
+          "name": "Customer Growth",
+          "value": 62,
+          "color": "#00b074"
+        },
+        {
+          "name": "Total Revenue",
+          "value": 76,
+          "color": "#2d9cdb"
+        }
+      ],
+      "orders": [
+        {
+          "name": "00:00",
+          "orders": 24
+        },
+        {
+          "name": "04:00",
+          "orders": 42
+        },
+        {
+          "name": "08:00",
+          "orders": 32
+        },
+        {
+          "name": "12:00",
+          "orders": 65
+        },
+        {
+          "name": "16:00",
+          "orders": 48
+        },
+        {
+          "name": "20:00",
+          "orders": 72
+        }
+      ],
+      "revenue": [
+        {
+          "name": "Jan",
+          "previous": 1000,
+          "current": 1400
+        },
+        {
+          "name": "Feb",
+          "previous": 1400,
+          "current": 1200
+        },
+        {
+          "name": "Mar",
+          "previous": 1100,
+          "current": 1800
+        },
+        {
+          "name": "Apr",
+          "previous": 1700,
+          "current": 1500
+        },
+        {
+          "name": "May",
+          "previous": 1400,
+          "current": 2200
+        },
+        {
+          "name": "Jun",
+          "previous": 2000,
+          "current": 1700
+        },
+        {
+          "name": "Jul",
+          "previous": 1800,
+          "current": 2500
+        },
+        {
+          "name": "Aug",
+          "previous": 2300,
+          "current": 2100
+        },
+        {
+          "name": "Sep",
+          "previous": 1900,
+          "current": 2700
+        },
+        {
+          "name": "Oct",
+          "previous": 2400,
+          "current": 2300
+        },
+        {
+          "name": "Nov",
+          "previous": 2100,
+          "current": 3000
+        },
+        {
+          "name": "Dec",
+          "previous": 2700,
+          "current": 2800
+        }
+      ],
+      "customers": [
+        {
+          "name": "Mon",
+          "customers": 36
+        },
+        {
+          "name": "Tue",
+          "customers": 52
+        },
+        {
+          "name": "Wed",
+          "customers": 43
+        },
+        {
+          "name": "Thu",
+          "customers": 67
+        },
+        {
+          "name": "Fri",
+          "customers": 48
+        },
+        {
+          "name": "Sat",
+          "customers": 79
+        },
+        {
+          "name": "Sun",
+          "customers": 58
+        }
+      ]
+    },
+    "week": {
+      "stats": {
+        "orders": 525,
+        "delivered": 448,
+        "cancelled": 28,
+        "revenue": 8960
+      },
+      "changes": {
+        "orders": 4.2,
+        "delivered": 2.6,
+        "cancelled": -1.8,
+        "revenue": 8.4
+      },
+      "pies": [
+        {
+          "name": "Total Orders",
+          "value": 81,
+          "color": "#ff5b5b"
+        },
+        {
+          "name": "Customer Growth",
+          "value": 62,
+          "color": "#00b074"
+        },
+        {
+          "name": "Total Revenue",
+          "value": 76,
+          "color": "#2d9cdb"
+        }
+      ],
+      "orders": [
+        {
+          "name": "Mon",
+          "orders": 168
+        },
+        {
+          "name": "Tue",
+          "orders": 294
+        },
+        {
+          "name": "Wed",
+          "orders": 224
+        },
+        {
+          "name": "Thu",
+          "orders": 455
+        },
+        {
+          "name": "Fri",
+          "orders": 336
+        },
+        {
+          "name": "Sat",
+          "orders": 504
+        },
+        {
+          "name": "Sun",
+          "orders": 385
+        }
+      ],
+      "revenue": [
+        {
+          "name": "Jan",
+          "previous": 7000,
+          "current": 9800
+        },
+        {
+          "name": "Feb",
+          "previous": 9800,
+          "current": 8400
+        },
+        {
+          "name": "Mar",
+          "previous": 7700,
+          "current": 12600
+        },
+        {
+          "name": "Apr",
+          "previous": 11900,
+          "current": 10500
+        },
+        {
+          "name": "May",
+          "previous": 9800,
+          "current": 15400
+        },
+        {
+          "name": "Jun",
+          "previous": 14000,
+          "current": 11900
+        },
+        {
+          "name": "Jul",
+          "previous": 12600,
+          "current": 17500
+        },
+        {
+          "name": "Aug",
+          "previous": 16100,
+          "current": 14700
+        },
+        {
+          "name": "Sep",
+          "previous": 13300,
+          "current": 18900
+        },
+        {
+          "name": "Oct",
+          "previous": 16800,
+          "current": 16100
+        },
+        {
+          "name": "Nov",
+          "previous": 14700,
+          "current": 21000
+        },
+        {
+          "name": "Dec",
+          "previous": 18900,
+          "current": 19600
+        }
+      ],
+      "customers": [
+        {
+          "name": "Mon",
+          "customers": 252
+        },
+        {
+          "name": "Tue",
+          "customers": 364
+        },
+        {
+          "name": "Wed",
+          "customers": 301
+        },
+        {
+          "name": "Thu",
+          "customers": 469
+        },
+        {
+          "name": "Fri",
+          "customers": 336
+        },
+        {
+          "name": "Sat",
+          "customers": 553
+        },
+        {
+          "name": "Sun",
+          "customers": 406
+        }
+      ]
+    },
+    "month": {
+      "stats": {
+        "orders": 2250,
+        "delivered": 1920,
+        "cancelled": 120,
+        "revenue": 38400
+      },
+      "changes": {
+        "orders": 4.2,
+        "delivered": 2.6,
+        "cancelled": -1.8,
+        "revenue": 8.4
+      },
+      "pies": [
+        {
+          "name": "Total Orders",
+          "value": 81,
+          "color": "#ff5b5b"
+        },
+        {
+          "name": "Customer Growth",
+          "value": 62,
+          "color": "#00b074"
+        },
+        {
+          "name": "Total Revenue",
+          "value": 76,
+          "color": "#2d9cdb"
+        }
+      ],
+      "orders": [
+        {
+          "name": "Week 1",
+          "orders": 720
+        },
+        {
+          "name": "Week 2",
+          "orders": 1260
+        },
+        {
+          "name": "Week 3",
+          "orders": 960
+        },
+        {
+          "name": "Week 4",
+          "orders": 1950
+        }
+      ],
+      "revenue": [
+        {
+          "name": "Jan",
+          "previous": 30000,
+          "current": 42000
+        },
+        {
+          "name": "Feb",
+          "previous": 42000,
+          "current": 36000
+        },
+        {
+          "name": "Mar",
+          "previous": 33000,
+          "current": 54000
+        },
+        {
+          "name": "Apr",
+          "previous": 51000,
+          "current": 45000
+        },
+        {
+          "name": "May",
+          "previous": 42000,
+          "current": 66000
+        },
+        {
+          "name": "Jun",
+          "previous": 60000,
+          "current": 51000
+        },
+        {
+          "name": "Jul",
+          "previous": 54000,
+          "current": 75000
+        },
+        {
+          "name": "Aug",
+          "previous": 69000,
+          "current": 63000
+        },
+        {
+          "name": "Sep",
+          "previous": 57000,
+          "current": 81000
+        },
+        {
+          "name": "Oct",
+          "previous": 72000,
+          "current": 69000
+        },
+        {
+          "name": "Nov",
+          "previous": 63000,
+          "current": 90000
+        },
+        {
+          "name": "Dec",
+          "previous": 81000,
+          "current": 84000
+        }
+      ],
+      "customers": [
+        {
+          "name": "Mon",
+          "customers": 1080
+        },
+        {
+          "name": "Tue",
+          "customers": 1560
+        },
+        {
+          "name": "Wed",
+          "customers": 1290
+        },
+        {
+          "name": "Thu",
+          "customers": 2010
+        },
+        {
+          "name": "Fri",
+          "customers": 1440
+        },
+        {
+          "name": "Sat",
+          "customers": 2370
+        },
+        {
+          "name": "Sun",
+          "customers": 1740
+        }
+      ]
+    }
+  }
+}

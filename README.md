@@ -30,3 +30,94 @@ Vazifalar ro'yxati: [tasks.md](tasks.md). Batafsil vazifalar: https://github.com
 - Ish tayyor bo'lsa — Pull Request ochiladi, Akbar ko'rib chiqib merge qiladi.
 - Umumiy komponentlarni (Card, Button, Table) faqat Akbar o'zgartiradi; kerak bo'lsa unga yoziladi.
 - Commit xabarlari qisqa va tushunarli: `Order List: status filtri qo'shildi`.
+
+## Ishga tushirish
+
+Node.js 20.19+ yoki 22.12+ talab qilinadi (Node 24 ham mos).
+
+```bash
+npm install
+npm run dev
+```
+
+Production tekshiruvi: `npm run build`, keyin `npm run preview`.
+
+## Karkas tuzilmasi
+
+- `src/pages/` — har bir sahifa uchun alohida komponent.
+- `src/layouts/AppLayout.jsx` — Sidebar, Header va sahifa kontenti.
+- `src/components/layout/` — Sidebar va Header (Akbar).
+- `src/components/` — umumiy komponentlar (Akbar).
+- `src/styles/index.css` — Tailwind, ranglar va Barlow shrifti.
+- `src/data/` — mas’ullar yaratadigan JSON ma’lumotlar.
+- `src/App.jsx` — umumiy routing (o‘zgarishlar Akbar bilan kelishiladi).
+
+## Sahifa yo‘llari
+
+| Yo‘l | Komponent | Mas’ul |
+|---|---|---|
+| /dashboard | Dashboard | Akbar |
+| /orders | OrderList | Sherzod |
+| /orders/:id | OrderDetail | Sherzod |
+| /customers | CustomerList | Amirbek |
+| /analytics | Analytics | Salahitdinov |
+| /reviews | Reviews | Amirbek |
+| /foods | Foods | Salahitdinov |
+| /foods/:id | FoodDetail | Salahitdinov |
+| /customers/:id | CustomerDetail | Amirbek |
+| /calendar | Calendar | Sherzod |
+| /chat | Chat | Amirbek |
+| /wallet | Wallet | Akbar |
+| /foods/new | FoodCreate | Salahitdinov |
+| /foods/:id/edit | FoodEdit | Salahitdinov |
+| /login | Login | Akbar |
+
+Tafsilot sahifalaridagi `:id` haqiqiy yozuv identifikatori bilan almashtiriladi. Sidebar vaqtincha `demo` IDga yo‘naltiradi. Taom yaratish: `/foods/new`; tahrirlash: `/foods/:id/edit`.
+
+Login, Dashboard va Wallet amalga oshirilgan. Jamoaning qolgan sahifalari hozircha placeholder. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
+
+Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.
+
+## Demo kirish
+
+- Email: `admin@sedap.uz`
+- Parol: `Sedap123!`
+
+Backend yo‘qligi sababli bu faqat frontend demo autentifikatsiya. Sessiya `sessionStorage`da saqlanadi, tab yopilganda tugaydi. Haqiqiy autentifikatsiya server orqali alohida amalga oshirilishi kerak. Chiqish Header profil menyusida. Himoyalangan sahifaga kirilganda Login ochiladi va muvaffaqiyatli kirishdan keyin oldingi sahifaga qaytiladi.
+
+## Umumiy komponentlar
+
+Import: `import { Card, Button, Badge, Table, Modal, Input, Select, Pagination, Tabs } from '../components/ui';`
+
+Har bir komponentning interaktiv misoli: `/components`. Misol kodi: `src/pages/ComponentExamples.jsx`. Jamoa a’zolari ushbu komponentlardan foydalanishi kerak; o‘zgarishlar Akbar orqali.
+
+- Card: `title`, `description`, `action`, `children`.
+- Button: `variant=primary|secondary|danger`, `onClick`, `disabled`. Forma uchun `type="submit"`.
+- Badge: `status` yoki maxsus `children`.
+- Input: `label`, `value`, `onChange`, `error`.
+- Select: `options=[{value,label}]`, `value`, `onChange`.
+- Table: `columns=[{key,label,render?}]`, `data`, `rowKey` (default: id), `onRowClick`. Qator yoki birinchi ustundagi tugma tafsilotni ochadi. Qatordagi boshqa tugmalar navigatsiya qilmaydi.
+- Modal: `open`, `onClose`, `title`, `children`. Native dialog fokusni ichkarida ushlab turadi.
+- Pagination: `page` (1 dan), `pageSize`, `total`, `onChange`. Filtr o‘zgarsa sahifani 1 ga qaytaring.
+- Tabs: `options=[{value,label}]`, `value`, `onChange`.
+
+## Akbarning JSON ma’lumotlari
+
+- `dashboard.json`: day/week/month statistika, uchta donut, buyurtmalar, ikki yil daromadi va haftalik mijozlar. Davr tanlash barcha ko‘rsatkichlarni yangilaydi.
+- `wallet.json`: balans, haftalik kirim/chiqim, tranzaksiyalar. Qidiruv, status va kirim/chiqim filtrlari, sahifalash mavjud. Valyuta: USD (dizayn demosiga mos).
+- `auth.json`: faqat demo hisob ma’lumotlari.
+
+## Tekshirish
+
+`npm test` — login validatsiyasi, demo hisob va ichki redirect tekshiruvlari.
+`npm run build` — production build.
+
+Brauzerda: Login xatolari, muvaffaqiyatli kirish, oldingi sahifaga qaytish, logout, Dashboard davrlari, Wallet filtr/sahifalash, `/components` modali va 375/768/1440 px ko‘rinishlarni tekshiring.
+
+Agent muhitida 3 ta test o‘tdi va JSX transform tekshirildi. Vite build fayl ruxsatlari/timeout sabab yakunlanmadi; brauzer va mobil tekshiruvlar hali bajarilmagan.
+
+Foydalanuvchi lokal brauzerda panelni tekshirib, ishlashini tasdiqladi. Production build va barcha mobil o‘lchamlar tekshiruvi alohida bajariladi.
+
+Keyingi kod ko‘rigida haqiqiy ID uchun faol menyu, jadval qatorini bosish va Modal callback barqarorligi tuzatildi. Login va navigatsiya uchun jami 6 ta test mavjud.
+
+Mobil tekshiruv ro‘yxati: [docs/mobile-checklist.md](docs/mobile-checklist.md). Mobil/planshet tuzatishlari yozildi; vizual tekshiruv hali kutilmoqda.

@@ -1,0 +1,237 @@
+{
+  "balance": 24568.8,
+  "cardHolder": "AKBAR KOMILOV",
+  "cardNumber": "••••  ••••  ••••  4829",
+  "expiry": "12/28",
+  "flow": [
+    {
+      "name": "Mon",
+      "income": 1400,
+      "expense": 700
+    },
+    {
+      "name": "Tue",
+      "income": 2100,
+      "expense": 1100
+    },
+    {
+      "name": "Wed",
+      "income": 1800,
+      "expense": 800
+    },
+    {
+      "name": "Thu",
+      "income": 2700,
+      "expense": 1300
+    },
+    {
+      "name": "Fri",
+      "income": 1900,
+      "expense": 1000
+    },
+    {
+      "name": "Sat",
+      "income": 3200,
+      "expense": 1500
+    },
+    {
+      "name": "Sun",
+      "income": 2600,
+      "expense": 1200
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TX-1048",
+      "name": "Order payment",
+      "date": "2026-10-12T10:00:00Z",
+      "type": "income",
+      "amount": 245,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1047",
+      "name": "Ingredient purchase",
+      "date": "2026-10-12T11:00:00Z",
+      "type": "expense",
+      "amount": 180,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1046",
+      "name": "Delivery payment",
+      "date": "2026-10-12T12:00:00Z",
+      "type": "income",
+      "amount": 95,
+      "status": "pending"
+    },
+    {
+      "id": "TX-1045",
+      "name": "Restaurant supplies",
+      "date": "2026-10-11T13:00:00Z",
+      "type": "expense",
+      "amount": 320,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1044",
+      "name": "Order payment",
+      "date": "2026-10-11T14:00:00Z",
+      "type": "income",
+      "amount": 420,
+      "status": "failed"
+    },
+    {
+      "id": "TX-1043",
+      "name": "Ingredient purchase",
+      "date": "2026-10-11T15:00:00Z",
+      "type": "expense",
+      "amount": 125,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1042",
+      "name": "Delivery payment",
+      "date": "2026-10-10T16:00:00Z",
+      "type": "income",
+      "amount": 245,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1041",
+      "name": "Restaurant supplies",
+      "date": "2026-10-10T17:00:00Z",
+      "type": "expense",
+      "amount": 180,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1040",
+      "name": "Order payment",
+      "date": "2026-10-10T18:00:00Z",
+      "type": "income",
+      "amount": 95,
+      "status": "pending"
+    },
+    {
+      "id": "TX-1039",
+      "name": "Ingredient purchase",
+      "date": "2026-10-09T10:00:00Z",
+      "type": "expense",
+      "amount": 320,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1038",
+      "name": "Delivery payment",
+      "date": "2026-10-09T11:00:00Z",
+      "type": "income",
+      "amount": 420,
+      "status": "failed"
+    },
+    {
+      "id": "TX-1037",
+      "name": "Restaurant supplies",
+      "date": "2026-10-09T12:00:00Z",
+      "type": "expense",
+      "amount": 125,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1036",
+      "name": "Order payment",
+      "date": "2026-10-08T13:00:00Z",
+      "type": "income",
+      "amount": 245,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1035",
+      "name": "Ingredient purchase",
+      "date": "2026-10-08T14:00:00Z",
+      "type": "expense",
+      "amount": 180,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1034",
+      "name": "Delivery payment",
+      "date": "2026-10-08T15:00:00Z",
+      "type": "income",
+      "amount": 95,
+      "status": "pending"
+    },
+    {
+      "id": "TX-1033",
+      "name": "Restaurant supplies",
+      "date": "2026-10-07T16:00:00Z",
+      "type": "expense",
+      "amount": 320,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1032",
+      "name": "Order payment",
+      "date": "2026-10-07T17:00:00Z",
+      "type": "income",
+      "amount": 420,
+      "status": "failed"
+    },
+    {
+      "id": "TX-1031",
+      "name": "Ingredient purchase",
+      "date": "2026-10-07T18:00:00Z",
+      "type": "expense",
+      "amount": 125,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1030",
+      "name": "Delivery payment",
+      "date": "2026-10-06T10:00:00Z",
+      "type": "income",
+      "amount": 245,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1029",
+      "name": "Restaurant supplies",
+      "date": "2026-10-06T11:00:00Z",
+      "type": "expense",
+      "amount": 180,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1028",
+      "name": "Order payment",
+      "date": "2026-10-06T12:00:00Z",
+      "type": "income",
+      "amount": 95,
+      "status": "pending"
+    },
+    {
+      "id": "TX-1027",
+      "name": "Ingredient purchase",
+      "date": "2026-10-05T13:00:00Z",
+      "type": "expense",
+      "amount": 320,
+      "status": "completed"
+    },
+    {
+      "id": "TX-1026",
+      "name": "Delivery payment",
+      "date": "2026-10-05T14:00:00Z",
+      "type": "income",
+      "amount": 420,
+      "status": "failed"
+    },
+    {
+      "id": "TX-1025",
+      "name": "Restaurant supplies",
+      "date": "2026-10-05T15:00:00Z",
+      "type": "expense",
+      "amount": 125,
+      "status": "completed"
+    }
+  ]
+}
