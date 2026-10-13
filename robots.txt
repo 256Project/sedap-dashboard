@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /sedap-dashboard/
+Disallow: /sedap-dashboard/app/
+Sitemap: https://256project.github.io/sedap-dashboard/sitemap.xml
