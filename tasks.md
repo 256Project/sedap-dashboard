@@ -71,28 +71,30 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 ## Amirbek
 
 ### 10. Customer List (#14)
-- [ ] Mijozlar jadvali: ism, telefon, manzil, buyurtmalar soni, jami xarid
-- [ ] Qidiruv, saralash, sahifalash
-- [ ] Mijoz qo'shish va o'chirish
-- [ ] Qatorni bosganda Customer Detail ochiladi
+- [x] Mijozlar jadvali: ism, telefon, manzil, buyurtmalar soni, jami xarid
+- [x] Qidiruv, saralash, sahifalash
+- [x] Mijoz qo'shish va o'chirish
+- [x] Qatorni bosganda Customer Detail ochiladi
 
 ### 11. Customer Detail (#15)
-- [ ] Profil kartochkasi va balans
-- [ ] Eng ko'p buyurtma qilgan taomlari
-- [ ] Buyurtmalar tarixi jadvali
-- [ ] Oylik xarid grafigi
+- [x] Profil kartochkasi va balans
+- [x] Eng ko'p buyurtma qilgan taomlari
+- [x] Buyurtmalar tarixi jadvali
+- [x] Oylik xarid grafigi
 
 ### 12. Reviews (#16)
-- [ ] Sharhlar ro'yxati: mijoz, taom, reyting (yulduzlar), matn, sana
-- [ ] Reyting bo'yicha filtr va qidiruv
-- [ ] Sharhga javob yozish
-- [ ] O'rtacha reyting kartochkasi
+- [x] Sharhlar ro'yxati: mijoz, taom, reyting (yulduzlar), matn, sana
+- [x] Reyting bo'yicha filtr va qidiruv
+- [x] Sharhga javob yozish
+- [x] O'rtacha reyting kartochkasi
 
 ### 13. Chat (#17)
-- [ ] Chap tomonda suhbatlar ro'yxati, o'qilmaganlar soni
-- [ ] O'ng tomonda yozishmalar
-- [ ] Xabar yozish va yuborish
-- [ ] Suhbatlar bo'yicha qidiruv
+- [x] Chap tomonda suhbatlar ro'yxati, o'qilmaganlar soni
+- [x] O'ng tomonda yozishmalar
+- [x] Xabar yozish va yuborish
+- [x] Suhbatlar bo'yicha qidiruv
+
+Amirbekning to‘rtta sahifasi 375/768/1440 px o‘lchamlarda brauzerda tekshirildi. Mijoz qo‘shish/o‘chirish, sharhga javob va chat xabarlari qayta yuklanganda saqlanishi tekshirildi. Ma’lumotlar frontend demo: JSON + localStorage, backend va real vaqt chat mavjud emas. Tekshiruv tafsilotlari: [docs/amirbek-checklist.md](docs/amirbek-checklist.md).
 
 ## Salahitdinov
 

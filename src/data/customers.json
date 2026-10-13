@@ -1,0 +1,2198 @@
+[
+  {
+    "id": "CUS-001",
+    "name": "Aziz Karimov",
+    "phone": "+998 90 120 10 20",
+    "address": "Tashkent, Chilonzor 12",
+    "createdAt": "2025-01-15",
+    "balance": 25,
+    "orders": 8,
+    "spent": 274,
+    "history": [
+      {
+        "id": "ORD-1000",
+        "date": "2026-01-04",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1001",
+        "date": "2026-02-04",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1002",
+        "date": "2026-03-04",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 3,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 42,
+        "status": "cancelled"
+      },
+      {
+        "id": "ORD-1003",
+        "date": "2026-04-04",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1004",
+        "date": "2026-05-04",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1005",
+        "date": "2026-06-04",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1006",
+        "date": "2026-07-04",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1007",
+        "date": "2026-08-04",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-002",
+    "name": "Madina Rasulova",
+    "phone": "+998 90 121 11 21",
+    "address": "Tashkent, Yunusobod 4",
+    "createdAt": "2025-02-15",
+    "balance": 38,
+    "orders": 9,
+    "spent": 412,
+    "history": [
+      {
+        "id": "ORD-1020",
+        "date": "2026-01-05",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1021",
+        "date": "2026-02-05",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1022",
+        "date": "2026-03-05",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1023",
+        "date": "2026-04-05",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1024",
+        "date": "2026-05-05",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1025",
+        "date": "2026-06-05",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 3,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 45,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1026",
+        "date": "2026-07-05",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1027",
+        "date": "2026-08-05",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1028",
+        "date": "2026-09-05",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-003",
+    "name": "Jasur Aliyev",
+    "phone": "+998 90 122 12 22",
+    "address": "Samarkand, Registon 8",
+    "createdAt": "2025-03-15",
+    "balance": 51,
+    "orders": 10,
+    "spent": 433,
+    "history": [
+      {
+        "id": "ORD-1040",
+        "date": "2026-01-06",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1041",
+        "date": "2026-02-06",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1042",
+        "date": "2026-03-06",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 3,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 57,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1043",
+        "date": "2026-04-06",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1044",
+        "date": "2026-05-06",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1045",
+        "date": "2026-06-06",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1046",
+        "date": "2026-07-06",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1047",
+        "date": "2026-08-06",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1048",
+        "date": "2026-09-06",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 3,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 57,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1049",
+        "date": "2026-10-06",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-004",
+    "name": "Dilnoza Ismoilova",
+    "phone": "+998 90 123 13 23",
+    "address": "Tashkent, Mirzo Ulugbek 25",
+    "createdAt": "2025-04-15",
+    "balance": 64,
+    "orders": 11,
+    "spent": 389,
+    "history": [
+      {
+        "id": "ORD-1060",
+        "date": "2026-01-07",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1061",
+        "date": "2026-02-07",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1062",
+        "date": "2026-03-07",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "cancelled"
+      },
+      {
+        "id": "ORD-1063",
+        "date": "2026-04-07",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1064",
+        "date": "2026-05-07",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1065",
+        "date": "2026-06-07",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 3,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1066",
+        "date": "2026-07-07",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1067",
+        "date": "2026-08-07",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1068",
+        "date": "2026-09-07",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1069",
+        "date": "2026-10-07",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1070",
+        "date": "2026-11-07",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-005",
+    "name": "Bobur Saidov",
+    "phone": "+998 90 124 14 24",
+    "address": "Tashkent, Chilonzor 12",
+    "createdAt": "2025-05-15",
+    "balance": 77,
+    "orders": 8,
+    "spent": 317,
+    "history": [
+      {
+        "id": "ORD-1080",
+        "date": "2026-01-08",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1081",
+        "date": "2026-02-08",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1082",
+        "date": "2026-03-08",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 3,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 45,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1083",
+        "date": "2026-04-08",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1084",
+        "date": "2026-05-08",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1085",
+        "date": "2026-06-08",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1086",
+        "date": "2026-07-08",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1087",
+        "date": "2026-08-08",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-006",
+    "name": "Shahnoza Umarova",
+    "phone": "+998 90 125 15 25",
+    "address": "Tashkent, Yunusobod 4",
+    "createdAt": "2025-06-15",
+    "balance": 90,
+    "orders": 9,
+    "spent": 408,
+    "history": [
+      {
+        "id": "ORD-1100",
+        "date": "2026-01-09",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1101",
+        "date": "2026-02-09",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1102",
+        "date": "2026-03-09",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1103",
+        "date": "2026-04-09",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1104",
+        "date": "2026-05-09",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1105",
+        "date": "2026-06-09",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 3,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 57,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1106",
+        "date": "2026-07-09",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1107",
+        "date": "2026-08-09",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1108",
+        "date": "2026-09-09",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-007",
+    "name": "Sardor Rahimov",
+    "phone": "+998 90 126 16 26",
+    "address": "Samarkand, Registon 8",
+    "createdAt": "2025-07-15",
+    "balance": 103,
+    "orders": 10,
+    "spent": 347,
+    "history": [
+      {
+        "id": "ORD-1120",
+        "date": "2026-01-10",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1121",
+        "date": "2026-02-10",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1122",
+        "date": "2026-03-10",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 3,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 42,
+        "status": "cancelled"
+      },
+      {
+        "id": "ORD-1123",
+        "date": "2026-04-10",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1124",
+        "date": "2026-05-10",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1125",
+        "date": "2026-06-10",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1126",
+        "date": "2026-07-10",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1127",
+        "date": "2026-08-10",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1128",
+        "date": "2026-09-10",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 3,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1129",
+        "date": "2026-10-10",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-008",
+    "name": "Malika Sobirova",
+    "phone": "+998 90 127 17 27",
+    "address": "Tashkent, Mirzo Ulugbek 25",
+    "createdAt": "2025-08-15",
+    "balance": 116,
+    "orders": 11,
+    "spent": 471,
+    "history": [
+      {
+        "id": "ORD-1140",
+        "date": "2026-01-11",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1141",
+        "date": "2026-02-11",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1142",
+        "date": "2026-03-11",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1143",
+        "date": "2026-04-11",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1144",
+        "date": "2026-05-11",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1145",
+        "date": "2026-06-11",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 3,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 45,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1146",
+        "date": "2026-07-11",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1147",
+        "date": "2026-08-11",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1148",
+        "date": "2026-09-11",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1149",
+        "date": "2026-10-11",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1150",
+        "date": "2026-11-11",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-009",
+    "name": "Temur Usmonov",
+    "phone": "+998 90 128 18 28",
+    "address": "Tashkent, Chilonzor 12",
+    "createdAt": "2025-09-15",
+    "balance": 129,
+    "orders": 8,
+    "spent": 351,
+    "history": [
+      {
+        "id": "ORD-1160",
+        "date": "2026-01-12",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1161",
+        "date": "2026-02-12",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1162",
+        "date": "2026-03-12",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 3,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 57,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1163",
+        "date": "2026-04-12",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1164",
+        "date": "2026-05-12",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1165",
+        "date": "2026-06-12",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1166",
+        "date": "2026-07-12",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1167",
+        "date": "2026-08-12",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-010",
+    "name": "Nilufar Akramova",
+    "phone": "+998 90 129 19 29",
+    "address": "Tashkent, Yunusobod 4",
+    "createdAt": "2025-10-15",
+    "balance": 142,
+    "orders": 9,
+    "spent": 308,
+    "history": [
+      {
+        "id": "ORD-1180",
+        "date": "2026-01-13",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1181",
+        "date": "2026-02-13",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1182",
+        "date": "2026-03-13",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "cancelled"
+      },
+      {
+        "id": "ORD-1183",
+        "date": "2026-04-13",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 21,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1184",
+        "date": "2026-05-13",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 2,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 60,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1185",
+        "date": "2026-06-13",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 3,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1186",
+        "date": "2026-07-13",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 31,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1187",
+        "date": "2026-08-13",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 2,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1188",
+        "date": "2026-09-13",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 3,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 39,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-011",
+    "name": "Oybek Mirzayev",
+    "phone": "+998 90 130 20 30",
+    "address": "Samarkand, Registon 8",
+    "createdAt": "2025-11-15",
+    "balance": 155,
+    "orders": 10,
+    "spent": 404,
+    "history": [
+      {
+        "id": "ORD-1200",
+        "date": "2026-01-14",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1201",
+        "date": "2026-02-14",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1202",
+        "date": "2026-03-14",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 3,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 45,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1203",
+        "date": "2026-04-14",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1204",
+        "date": "2026-05-14",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 2,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1205",
+        "date": "2026-06-14",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 3,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 79,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1206",
+        "date": "2026-07-14",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 27,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1207",
+        "date": "2026-08-14",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 2,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 32,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1208",
+        "date": "2026-09-14",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 3,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 45,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1209",
+        "date": "2026-10-14",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 42,
+        "status": "delivered"
+      }
+    ]
+  },
+  {
+    "id": "CUS-012",
+    "name": "Zarina Hamidova",
+    "phone": "+998 90 131 21 31",
+    "address": "Tashkent, Mirzo Ulugbek 25",
+    "createdAt": "2025-12-15",
+    "balance": 168,
+    "orders": 11,
+    "spent": 487,
+    "history": [
+      {
+        "id": "ORD-1220",
+        "date": "2026-01-15",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1221",
+        "date": "2026-02-15",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1222",
+        "date": "2026-03-15",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1223",
+        "date": "2026-04-15",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1224",
+        "date": "2026-05-15",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1225",
+        "date": "2026-06-15",
+        "items": [
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 3,
+            "price": 15
+          },
+          {
+            "name": "Chicken burger",
+            "quantity": 1,
+            "price": 12
+          }
+        ],
+        "total": 57,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1226",
+        "date": "2026-07-15",
+        "items": [
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          },
+          {
+            "name": "Margherita pizza",
+            "quantity": 1,
+            "price": 18
+          }
+        ],
+        "total": 25,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1227",
+        "date": "2026-08-15",
+        "items": [
+          {
+            "name": "Chicken burger",
+            "quantity": 2,
+            "price": 12
+          },
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          }
+        ],
+        "total": 33,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1228",
+        "date": "2026-09-15",
+        "items": [
+          {
+            "name": "Margherita pizza",
+            "quantity": 3,
+            "price": 18
+          },
+          {
+            "name": "Beef steak",
+            "quantity": 1,
+            "price": 24
+          }
+        ],
+        "total": 78,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1229",
+        "date": "2026-10-15",
+        "items": [
+          {
+            "name": "Caesar salad",
+            "quantity": 1,
+            "price": 9
+          },
+          {
+            "name": "Pasta Alfredo",
+            "quantity": 1,
+            "price": 15
+          }
+        ],
+        "total": 24,
+        "status": "delivered"
+      },
+      {
+        "id": "ORD-1230",
+        "date": "2026-11-15",
+        "items": [
+          {
+            "name": "Beef steak",
+            "quantity": 2,
+            "price": 24
+          },
+          {
+            "name": "Lemon cheesecake",
+            "quantity": 1,
+            "price": 7
+          }
+        ],
+        "total": 55,
+        "status": "delivered"
+      }
+    ]
+  }
+]

@@ -74,7 +74,7 @@ Production tekshiruvi: `npm run build`, keyin `npm run preview`.
 
 Tafsilot sahifalaridagi `:id` haqiqiy yozuv identifikatori bilan almashtiriladi. Sidebar vaqtincha `demo` IDga yo‘naltiradi. Taom yaratish: `/foods/new`; tahrirlash: `/foods/:id/edit`.
 
-Login, Dashboard va Wallet amalga oshirilgan. Jamoaning qolgan sahifalari hozircha placeholder. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
+Login, Dashboard, Wallet va Amirbekning Customer List, Customer Detail, Reviews, Chat sahifalari amalga oshirilgan. Buyurtmalar, Calendar, Foods va Analytics sahifalari hozircha placeholder. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
 
 Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.
 
@@ -109,7 +109,7 @@ Har bir komponentning interaktiv misoli: `/components`. Misol kodi: `src/pages/C
 
 ## Tekshirish
 
-`npm test` — login validatsiyasi, demo hisob va ichki redirect tekshiruvlari.
+`npm test` — login, navigatsiya, mijoz qidiruvi/saralashi/validatsiyasi, xarid statistikasi va sharh filtrlari tekshiruvlari.
 `npm run build` — production build.
 
 Brauzerda: Login xatolari, muvaffaqiyatli kirish, oldingi sahifaga qaytish, logout, Dashboard davrlari, Wallet filtr/sahifalash, `/components` modali va 375/768/1440 px ko‘rinishlarni tekshiring.
@@ -121,3 +121,14 @@ Foydalanuvchi lokal brauzerda panelni tekshirib, ishlashini tasdiqladi. Producti
 Keyingi kod ko‘rigida haqiqiy ID uchun faol menyu, jadval qatorini bosish va Modal callback barqarorligi tuzatildi. Login va navigatsiya uchun jami 6 ta test mavjud.
 
 Mobil tekshiruv ro‘yxati: [docs/mobile-checklist.md](docs/mobile-checklist.md). Mobil/planshet tuzatishlari yozildi; vizual tekshiruv hali kutilmoqda.
+
+## Amirbek — mijozlar, sharhlar va chat
+
+- `/customers`: 12 ta demo mijoz, qidiruv, saralash, sahifalash, validatsiyali qo‘shish va tasdiqlash orqali o‘chirish.
+- `/customers/:id`: profil, balans, sevimli taomlar, buyurtmalar tarixi va oylik xarid grafigi. `/customers/demo` birinchi mavjud mijozni ochadi; noma’lum yoki o‘chirilgan ID uchun bo‘sh holat mavjud.
+- `/reviews`: reyting kartochkasi, yulduzlar, qidiruv, reyting filtri, sahifalash, javob yozish va tahrirlash.
+- `/chat`: suhbat qidiruvi, o‘qilmaganlar, yozishmalar va xabar yuborish. Enter yuboradi, Shift+Enter yangi qator qo‘shadi. Har bir suhbatning qoralamasi navigatsiya qilinmaguncha alohida saqlanadi.
+
+Boshlang‘ich ma’lumotlar: `customers.json`, `reviews.json`, `conversations.json`. O‘zgarishlar shu brauzerning `localStorage`ida `sedap-amirbek-v1-*` kalitlari bilan saqlanadi; boshqa qurilma yoki foydalanuvchi bilan sinxronlanmaydi. Chat frontend demo, xabarlar haqiqiy mijozga yuborilmaydi. localStorage yozish xatosi foydalanuvchiga ko‘rsatiladi.
+
+Amirbekning to‘rtta sahifasi 375/768/1440 px o‘lchamlarda tekshirildi, 11 ta test va production build o‘tdi. [Tekshiruv qaydlari](docs/amirbek-checklist.md). Vite katta JS bundle haqida ogohlantiradi; build muvaffaqiyatli yakunlanadi. Deploy hali bajarilmagan.
