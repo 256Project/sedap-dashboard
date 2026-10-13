@@ -39,5 +39,5 @@ export default function AppLayout() {
       previousFocus?.focus();
     };
   }, [open, mobile]);
-  return <div className="app-shell"><a className="skip-link" href="#main-content">Asosiy qismga o‘tish</a><Sidebar open={open} onClose={() => setOpen(false)} sidebarRef={sidebarRef} mobile={mobile}/><div className="workspace" inert={open && mobile ? true : undefined}><Header onMenu={() => setOpen(value => !value)} menuOpen={open}/><main id="main-content" className="main-content"><Outlet/></main></div></div>;
+  return <div className="app-shell"><a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); document.getElementById('main-content')?.focus(); }}>Asosiy qismga o‘tish</a><Sidebar open={open} onClose={() => setOpen(false)} sidebarRef={sidebarRef} mobile={mobile}/><div className="workspace" inert={open && mobile ? true : undefined}><Header onMenu={() => setOpen(value => !value)} menuOpen={open}/><main tabIndex={-1} id="main-content" className="main-content"><Outlet/></main></div></div>;
 }

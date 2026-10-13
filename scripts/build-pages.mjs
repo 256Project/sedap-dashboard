@@ -1,0 +1,11 @@
+import { spawnSync } from 'node:child_process';
+import { mkdirSync, copyFileSync, writeFileSync } from 'node:fs';
+const result = spawnSync(process.execPath, ['node_modules/vite/bin/vite.js', 'build', '--base', '/sedap-dashboard/app/', '--outDir', 'dist/pages/app'], { stdio: 'inherit', env: { ...process.env, VITE_PAGES: 'true' } });
+if (result.status !== 0) process.exit(result.status || 1);
+mkdirSync('dist/pages', { recursive: true });
+copyFileSync('hosting/index.html', 'dist/pages/index.html');
+copyFileSync('public/brand/sedap-mark.svg', 'dist/pages/sedap-mark.svg');
+writeFileSync('dist/pages/.nojekyll', '');
+writeFileSync('dist/pages/robots.txt', 'User-agent: *\nAllow: /sedap-dashboard/\nDisallow: /sedap-dashboard/app/\nSitemap: https://256project.github.io/sedap-dashboard/sitemap.xml\n');
+writeFileSync('dist/pages/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://256project.github.io/sedap-dashboard/</loc></url></urlset>\n');
+console.log('GitHub Pages output: dist/pages');

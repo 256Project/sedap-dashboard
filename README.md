@@ -78,6 +78,8 @@ Login, Dashboard, Wallet, Order List, Order Detail, Calendar, Customer List, Cus
 
 Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.
 
+GitHub Pages uchun build: `node scripts/build-pages.mjs`. Tayyor sayt `dist/pages`da; hosting sozlamalari va Google indekslash bosqichlari: [docs/github-pages.md](docs/github-pages.md).
+
 ## Demo kirish
 
 - Email: `admin@sedap.uz`
