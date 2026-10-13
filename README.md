@@ -109,6 +109,21 @@ Har bir komponentning interaktiv misoli: `/components`. Misol kodi: `src/pages/C
 
 ## Tekshirish
 
+### Sherzod: buyurtmalar va kalendar
+
+`/orders`, `/orders/:id` va `/calendar` sahifalari tayyor. Sidebar’dagi `/orders/demo` birinchi demo buyurtmani ochadi; mavjud bo‘lmagan ID uchun tushunarli xabar ko‘rsatiladi.
+
+- `src/data/orders.json`: 20 ta buyurtma, mijozlar, taomlar, yetkazish haqi, demo koordinatalar va holat tarixi. Summa USD’da.
+- `src/data/events.json`: kalendar uchun boshlang‘ich tadbirlar.
+- Buyurtma holati va tadbirlar `localStorage`da alohida `sedap.sherzod.orders.v1` / `sedap.sherzod.events.v1` kalitlarida saqlanadi. Sahifa yangilanganda saqlangan ma’lumot ishlatiladi. Boshlang‘ich JSON’ga qaytish uchun shu ikkita kalitni brauzer DevTools orqali o‘chiring.
+- Buyurtma: yangi → tayyorlanmoqda → yetkazildi; yangi yoki tayyorlanayotgan buyurtma bekor qilinishi mumkin. Yakunlangan holat o‘zgarmaydi. Bekor qilish va tadbirni o‘chirish tasdiqlanadi.
+- Kalendar bugungi sana bilan ochiladi. Sana yoki `+` belgisi tadbir yaratadi, mavjud tadbir tahrirlash modalini ochadi. Bir kunlik tadbirning tugash vaqti boshlanishidan keyin bo‘lishi kerak.
+- Xarita OpenStreetMap orqali yuklanadi va internet talab qiladi. Manzil va koordinatalar demo ma’lumotlar; geokodlash yoki backend ulanmagan.
+
+PowerShell `npm.ps1`ni bloklasa, `npm.cmd run dev` ishlating. Vite konfiguratsiyasini yuklashda ushbu agent muhitida `Access is denied` kuzatildi; `npm.cmd run dev -- --configLoader native` va `npm.cmd run build -- --configLoader native` ishladi (Node 24).
+
+Tekshiruv natijalari: [docs/sherzod-checklist.md](docs/sherzod-checklist.md).
+
 `npm test` — login validatsiyasi, demo hisob va ichki redirect tekshiruvlari.
 `npm run build` — production build.
 

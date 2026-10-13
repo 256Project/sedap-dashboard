@@ -48,25 +48,27 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 ## Sherzod
 
 ### 7. Order List (#11)
-- [ ] Buyurtmalar jadvali: ID, sana, mijoz, manzil, summa, status
-- [ ] Status bo'yicha filtr (yangi, tayyorlanmoqda, yetkazildi, bekor qilindi)
-- [ ] Qidiruv va sana bo'yicha saralash
-- [ ] Sahifalash
-- [ ] Qatorda menyu: qabul qilish / bekor qilish
-- [ ] Qatorni bosganda Order Detail ochiladi
+- [x] Buyurtmalar jadvali: ID, sana, mijoz, manzil, summa, status
+- [x] Status bo'yicha filtr (yangi, tayyorlanmoqda, yetkazildi, bekor qilindi)
+- [x] Qidiruv va sana bo'yicha saralash
+- [x] Sahifalash
+- [x] Qatorda menyu: qabul qilish / bekor qilish
+- [x] Qatorni bosganda Order Detail ochiladi
 
 ### 8. Order Detail (#12)
-- [ ] Mijoz kartochkasi: ism, telefon, manzil
-- [ ] Buyurtma tarkibi: taom, soni, narxi, jami
-- [ ] Buyurtma holati tarixi (timeline)
-- [ ] Xaritada yetkazish manzili
-- [ ] Statusni o'zgartirish tugmalari
+- [x] Mijoz kartochkasi: ism, telefon, manzil
+- [x] Buyurtma tarkibi: taom, soni, narxi, jami
+- [x] Buyurtma holati tarixi (timeline)
+- [x] Xaritada yetkazish manzili
+- [x] Statusni o'zgartirish tugmalari
 
 ### 9. Calendar (#13)
-- [ ] Oy / hafta / kun ko'rinishi
-- [ ] Tadbir qo'shish, tahrirlash, o'chirish (modal)
-- [ ] Tadbir rangini tanlash
-- [ ] Yaqin tadbirlar ro'yxati yonida
+- [x] Oy / hafta / kun ko'rinishi
+- [x] Tadbir qo'shish, tahrirlash, o'chirish (modal)
+- [x] Tadbir rangini tanlash
+- [x] Yaqin tadbirlar ro'yxati yonida
+
+Sherzod tekshiruvi (2026-10-13): jami 13 ta unit test o‘tdi; production build `npm run build -- --configLoader native` bilan o‘tdi. Edge brauzerida buyurtma tafsilotiga o‘tish, status saqlanishi, noto‘g‘ri ID, Calendar CRUD, oy/hafta/kun va 375/768/1440 px sahifa kengliklari tekshirildi. Xarita internet talab qiladi; namuna bilan to‘liq vizual moslik alohida ko‘rib chiqiladi. Batafsil: [Sherzod tekshiruvi](docs/sherzod-checklist.md).
 
 ## Amirbek
 

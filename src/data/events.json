@@ -1,0 +1,6 @@
+[
+  { "id": "event-1", "title": "Jamoa yig‘ilishi", "date": "2026-10-13", "start": "10:00", "end": "11:00", "color": "green", "description": "Haftalik buyurtmalar va xizmat sifatini ko‘rib chiqish." },
+  { "id": "event-2", "title": "Yetkazib beruvchi bilan uchrashuv", "date": "2026-10-15", "start": "14:00", "end": "15:00", "color": "blue", "description": "Yangi mahsulotlar buyurtmasi." },
+  { "id": "event-3", "title": "Tug‘ilgan kun banketi", "date": "2026-10-17", "start": "18:00", "end": "21:00", "color": "purple", "description": "20 mehmon uchun stol tayyorlash." },
+  { "id": "event-4", "title": "Menyu taqdimoti", "date": "2026-10-22", "start": "12:00", "end": "13:30", "color": "orange", "description": "Yangi taomlar degustatsiyasi." }
+]
