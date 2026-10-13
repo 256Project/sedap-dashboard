@@ -1,0 +1,145 @@
+[
+  {
+    "id": "REV-1",
+    "customerId": "CUS-001",
+    "customer": "Aziz Karimov",
+    "food": "Chicken burger",
+    "rating": 5,
+    "text": "Taom juda mazali, yetkazib berish ham tez bo‘ldi. Rahmat!",
+    "date": "2026-10-12",
+    "reply": null
+  },
+  {
+    "id": "REV-2",
+    "customerId": "CUS-002",
+    "customer": "Madina Rasulova",
+    "food": "Margherita pizza",
+    "rating": 4,
+    "text": "Burger issiq va yangi edi. Yana buyurtma beraman.",
+    "date": "2026-10-11",
+    "reply": null
+  },
+  {
+    "id": "REV-3",
+    "customerId": "CUS-003",
+    "customer": "Jasur Aliyev",
+    "food": "Caesar salad",
+    "rating": 3,
+    "text": "Porsiya yaxshi, ammo yetkazish biroz kechikdi.",
+    "date": "2026-10-10",
+    "reply": null
+  },
+  {
+    "id": "REV-4",
+    "customerId": "CUS-004",
+    "customer": "Dilnoza Ismoilova",
+    "food": "Beef steak",
+    "rating": 5,
+    "text": "Ajoyib ta’m va chiroyli taqdimot. Oilamizga yoqdi.",
+    "date": "2026-10-09",
+    "reply": {
+      "text": "Rahmat! Sizni yana kutamiz.",
+      "date": "2026-10-12T09:15:00Z"
+    }
+  },
+  {
+    "id": "REV-5",
+    "customerId": "CUS-005",
+    "customer": "Bobur Saidov",
+    "food": "Pasta Alfredo",
+    "rating": 2,
+    "text": "Taom sovuqroq keldi, xizmatni yaxshilashingizni istardim.",
+    "date": "2026-10-08",
+    "reply": null
+  },
+  {
+    "id": "REV-6",
+    "customerId": "CUS-006",
+    "customer": "Shahnoza Umarova",
+    "food": "Lemon cheesecake",
+    "rating": 1,
+    "text": "Buyurtma kechikdi va sous yetishmadi.",
+    "date": "2026-10-07",
+    "reply": null
+  },
+  {
+    "id": "REV-7",
+    "customerId": "CUS-007",
+    "customer": "Sardor Rahimov",
+    "food": "Chicken burger",
+    "rating": 5,
+    "text": "Taom juda mazali, yetkazib berish ham tez bo‘ldi. Rahmat!",
+    "date": "2026-10-06",
+    "reply": null
+  },
+  {
+    "id": "REV-8",
+    "customerId": "CUS-008",
+    "customer": "Malika Sobirova",
+    "food": "Margherita pizza",
+    "rating": 5,
+    "text": "Burger issiq va yangi edi. Yana buyurtma beraman.",
+    "date": "2026-10-05",
+    "reply": null
+  },
+  {
+    "id": "REV-9",
+    "customerId": "CUS-009",
+    "customer": "Temur Usmonov",
+    "food": "Caesar salad",
+    "rating": 4,
+    "text": "Porsiya yaxshi, ammo yetkazish biroz kechikdi.",
+    "date": "2026-10-04",
+    "reply": null
+  },
+  {
+    "id": "REV-10",
+    "customerId": "CUS-010",
+    "customer": "Nilufar Akramova",
+    "food": "Beef steak",
+    "rating": 3,
+    "text": "Ajoyib ta’m va chiroyli taqdimot. Oilamizga yoqdi.",
+    "date": "2026-10-03",
+    "reply": null
+  },
+  {
+    "id": "REV-11",
+    "customerId": "CUS-011",
+    "customer": "Oybek Mirzayev",
+    "food": "Pasta Alfredo",
+    "rating": 5,
+    "text": "Taom sovuqroq keldi, xizmatni yaxshilashingizni istardim.",
+    "date": "2026-10-12",
+    "reply": null
+  },
+  {
+    "id": "REV-12",
+    "customerId": "CUS-012",
+    "customer": "Zarina Hamidova",
+    "food": "Lemon cheesecake",
+    "rating": 2,
+    "text": "Buyurtma kechikdi va sous yetishmadi.",
+    "date": "2026-10-11",
+    "reply": null
+  },
+  {
+    "id": "REV-13",
+    "customerId": "CUS-001",
+    "customer": "Aziz Karimov",
+    "food": "Chicken burger",
+    "rating": 1,
+    "text": "Taom juda mazali, yetkazib berish ham tez bo‘ldi. Rahmat!",
+    "date": "2026-10-10",
+    "reply": null
+  },
+  {
+    "id": "REV-14",
+    "customerId": "CUS-002",
+    "customer": "Madina Rasulova",
+    "food": "Margherita pizza",
+    "rating": 5,
+    "text": "Burger issiq va yangi edi. Yana buyurtma beraman.",
+    "date": "2026-10-09",
+    "reply": null
+  }
+]

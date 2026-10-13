@@ -1,0 +1,184 @@
+[
+  {
+    "id": "CHAT-1",
+    "customerId": "CUS-001",
+    "name": "Aziz Karimov",
+    "unread": 2,
+    "messages": [
+      {
+        "id": "MSG-0-1",
+        "sender": "customer",
+        "text": "Assalomu alaykum! Buyurtmam haqida so‘ramoqchi edim.",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-0-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-0-3",
+        "sender": "customer",
+        "text": "Buyurtma raqamim ORD-1000. Iltimos, tekshirib bering.",
+        "time": "2026-10-13T04:35:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-2",
+    "customerId": "CUS-002",
+    "name": "Madina Rasulova",
+    "unread": 0,
+    "messages": [
+      {
+        "id": "MSG-1-1",
+        "sender": "customer",
+        "text": "Bugungi menyuda pizza bormi?",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-1-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-1-3",
+        "sender": "customer",
+        "text": "Rahmat, javobingizni kutaman.",
+        "time": "2026-10-13T04:36:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-3",
+    "customerId": "CUS-003",
+    "name": "Jasur Aliyev",
+    "unread": 1,
+    "messages": [
+      {
+        "id": "MSG-2-1",
+        "sender": "customer",
+        "text": "Yetkazib berish qancha vaqt oladi?",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-2-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-2-3",
+        "sender": "customer",
+        "text": "Buyurtma raqamim ORD-1000. Iltimos, tekshirib bering.",
+        "time": "2026-10-13T04:37:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-4",
+    "customerId": "CUS-004",
+    "name": "Dilnoza Ismoilova",
+    "unread": 0,
+    "messages": [
+      {
+        "id": "MSG-3-1",
+        "sender": "customer",
+        "text": "Assalomu alaykum! Buyurtmam haqida so‘ramoqchi edim.",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-3-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-3-3",
+        "sender": "customer",
+        "text": "Rahmat, javobingizni kutaman.",
+        "time": "2026-10-13T04:38:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-5",
+    "customerId": "CUS-005",
+    "name": "Bobur Saidov",
+    "unread": 0,
+    "messages": [
+      {
+        "id": "MSG-4-1",
+        "sender": "customer",
+        "text": "Bugungi menyuda pizza bormi?",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-4-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-4-3",
+        "sender": "customer",
+        "text": "Buyurtma raqamim ORD-1000. Iltimos, tekshirib bering.",
+        "time": "2026-10-13T04:39:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-6",
+    "customerId": "CUS-006",
+    "name": "Shahnoza Umarova",
+    "unread": 0,
+    "messages": [
+      {
+        "id": "MSG-5-1",
+        "sender": "customer",
+        "text": "Yetkazib berish qancha vaqt oladi?",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-5-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-5-3",
+        "sender": "customer",
+        "text": "Rahmat, javobingizni kutaman.",
+        "time": "2026-10-13T04:40:00Z"
+      }
+    ]
+  },
+  {
+    "id": "CHAT-7",
+    "customerId": "CUS-007",
+    "name": "Sardor Rahimov",
+    "unread": 0,
+    "messages": [
+      {
+        "id": "MSG-6-1",
+        "sender": "customer",
+        "text": "Assalomu alaykum! Buyurtmam haqida so‘ramoqchi edim.",
+        "time": "2026-10-13T04:30:00Z"
+      },
+      {
+        "id": "MSG-6-2",
+        "sender": "admin",
+        "text": "Assalomu alaykum! Sizga yordam berishdan mamnunmiz.",
+        "time": "2026-10-13T04:32:00Z"
+      },
+      {
+        "id": "MSG-6-3",
+        "sender": "customer",
+        "text": "Buyurtma raqamim ORD-1000. Iltimos, tekshirib bering.",
+        "time": "2026-10-13T04:41:00Z"
+      }
+    ]
+  }
+]
