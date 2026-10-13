@@ -74,7 +74,7 @@ Production tekshiruvi: `npm run build`, keyin `npm run preview`.
 
 Tafsilot sahifalaridagi `:id` haqiqiy yozuv identifikatori bilan almashtiriladi. Sidebar vaqtincha `demo` IDga yo‘naltiradi. Taom yaratish: `/foods/new`; tahrirlash: `/foods/:id/edit`.
 
-Login, Dashboard, Wallet, Order List, Order Detail, Calendar, Customer List, Customer Detail, Reviews va Chat sahifalari amalga oshirilgan. Foods va Analytics sahifalari hozircha placeholder. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide.
+Login, Dashboard, Wallet, Order List, Order Detail, Calendar, Customer List, Customer Detail, Reviews, Chat, Foods, taom yaratish/tahrirlash, Food Detail va Analytics sahifalari amalga oshirilgan. Ranglar: primary `#00b074`, canvas `#f3f2f7`, text `#464255`. Barlow Google Fonts orqali yuklanadi, tarmoq bo‘lmasa sans-serif ishlaydi. Ikonkalar Lucide. Sedap SVG logosi sidebar va Login’da, favicon esa brauzer tabida ishlatiladi.
 
 Vercel uchun SPA rewrite `vercel.json`da tayyorlangan; deploy hali bajarilmagan.
 
@@ -155,3 +155,16 @@ Amirbekning to‘rtta sahifasi 375/768/1440 px o‘lchamlarda tekshirildi, 11 ta
 Buyurtma statusi o‘zgargach, mijoz sahifasiga o‘tilganda tarixi va jami xaridi qayta hisoblanadi. Bekor qilingan buyurtmalar xarid summasiga kiritilmaydi. Eski buyurtma localStorage yozuvlariga customerId boshlang‘ich JSON orqali qo‘shiladi; status va timeline saqlanadi. Mijozlar storage kaliti sedap-amirbek-v2-customers: v1 yozuvlari bor bo‘lsa qo‘shimcha buyurtma mijozlari bilan moslashtiriladi, oldin o‘chirilgan mijozlar qayta tiklanmaydi. Boshqa sahifalarning storage kalitlari o‘zgarmaydi.
 
 Integratsiya tekshiruvi: 22 ta test o‘tdi. Brauzerda yangi mijoz/buyurtma havolalari va statusdan keyingi mijoz tarixini tekshirish kerak.
+
+## Salahitdinov — Foods va Analytics
+
+- `/foods`: 8 ta demo taom, kategoriya/qidiruv, setka/ro‘yxat, sahifalash va sharhlardan hisoblangan reyting.
+- `/foods/new`, `/foods/:id/edit`: validatsiyali forma, tarkibi, JPG/PNG/WebP rasm yuklash (3 MB gacha), tasdiqlangan tahrir. Menyu `sedap-salah-v1-foods` localStorage kalitida saqlanadi. Saqlash xatosida forma yopilmaydi.
+- `/foods/:id`: katta rasm, tarkibi, tegishli sharhlar, tanlangan oydagi yetkazilgan porsiyalar va daromad; tasdiqlangan o‘chirish. `/foods/demo` birinchi mavjud taomni ochadi.
+- `/analytics`: kun/hafta/oy va sana tanlash; revenue, orders, mijozlar o‘sishi va eng ko‘p sotilgan taomlar. Toshkent vaqti ishlatiladi. Revenue faqat yetkazilgan buyurtmalar summasi va yetkazish haqidan olinadi.
+
+Eski buyurtmalarda taom IDlari qayta ishlatilgani uchun taomlar nom va oldingi nomlari orqali bog‘langan. Nom yoki narx o‘zgarganda tarixiy xaridlar o‘zgarmaydi. Menyudan o‘chirilgan taomlarning oldingi buyurtmalari statistikada saqlanadi. Backend va qurilmalararo sinxronlash mavjud emas.
+
+29 ta test va production build o‘tdi. Mobil tekshiruv va hisoblash qoidalari: [docs/salah-checklist.md](docs/salah-checklist.md).
+
+Logo fayllari: `public/brand/sedap-logo.svg` (to‘liq logo), `public/brand/sedap-mark.svg` (belgi/favicon). Taom illustratsiyalari `public/images/foods/`da; tashqi rasm servisi talab qilinmaydi.

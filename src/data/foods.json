@@ -1,0 +1,125 @@
+[
+  {
+    "id": "menu-burger",
+    "name": "Chicken Burger",
+    "category": "Burger",
+    "price": 8,
+    "description": "Yumshoq bulochka, grillda pishgan tovuq va yangi sabzavotlar.",
+    "ingredients": [
+      "Tovuq",
+      "bulochka",
+      "salat",
+      "pomidor",
+      "sous"
+    ],
+    "aliases": [],
+    "image": "/images/foods/burger.svg"
+  },
+  {
+    "id": "menu-pizza",
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "price": 12,
+    "description": "Pomidor sousi va mozzarella bilan pechda pishirilgan klassik pizza.",
+    "ingredients": [
+      "Xamir",
+      "mozzarella",
+      "pomidor",
+      "rayhon"
+    ],
+    "aliases": [],
+    "image": "/images/foods/pizza.svg"
+  },
+  {
+    "id": "menu-salad",
+    "name": "Caesar Salad",
+    "category": "Salad",
+    "price": 7,
+    "description": "Qarsildoq salat barglari, tovuq, parmesan va yengil Caesar sousi.",
+    "ingredients": [
+      "Salat",
+      "tovuq",
+      "parmesan",
+      "suxari",
+      "sous"
+    ],
+    "aliases": [],
+    "image": "/images/foods/salad.svg"
+  },
+  {
+    "id": "menu-steak",
+    "name": "Beef Steak",
+    "category": "Main course",
+    "price": 18,
+    "description": "Grillda pishirilgan mol go‘shti va yangi ko‘katli garnir.",
+    "ingredients": [
+      "Mol go‘shti",
+      "kartoshka",
+      "rozmarin",
+      "sabzavotlar"
+    ],
+    "aliases": [],
+    "image": "/images/foods/steak.svg"
+  },
+  {
+    "id": "menu-pasta",
+    "name": "Pasta Alfredo",
+    "category": "Main course",
+    "price": 15,
+    "description": "Qaymoqli sous, parmesan va yangi ko‘katli Alfredo pastasi.",
+    "ingredients": [
+      "Pasta",
+      "qaymoq",
+      "parmesan",
+      "sarimsoq"
+    ],
+    "aliases": [],
+    "image": "/images/foods/pasta.svg"
+  },
+  {
+    "id": "menu-cake",
+    "name": "Lemon Cheesecake",
+    "category": "Dessert",
+    "price": 7,
+    "description": "Limonning yengil ta’mi bilan yumshoq qaymoqli cheesecake.",
+    "ingredients": [
+      "Krem pishloq",
+      "limon",
+      "pechenye",
+      "sariyog‘"
+    ],
+    "aliases": [],
+    "image": "/images/foods/cake.svg"
+  },
+  {
+    "id": "menu-tea",
+    "name": "Lemon Tea",
+    "category": "Drink",
+    "price": 3,
+    "description": "Yangi limon va yalpiz bilan tayyorlangan xushbo‘y choy.",
+    "ingredients": [
+      "Choy",
+      "limon",
+      "yalpiz",
+      "asal"
+    ],
+    "aliases": [],
+    "image": "/images/foods/tea.svg"
+  },
+  {
+    "id": "menu-veggie",
+    "name": "Garden Pizza",
+    "category": "Pizza",
+    "price": 14,
+    "description": "Rang-barang sabzavotlar va mozzarella bilan vegetarian pizza.",
+    "ingredients": [
+      "Xamir",
+      "qalampir",
+      "zaytun",
+      "pomidor",
+      "mozzarella"
+    ],
+    "aliases": [],
+    "image": "/images/foods/pizza.svg"
+  }
+]

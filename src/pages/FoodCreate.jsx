@@ -1,2 +1,2 @@
-import PlaceholderPage from '../components/PlaceholderPage';
-export default function FoodCreate() { return <PlaceholderPage title="Taom qo‘shish" owner="Salahitdinov" issue={19} />; }
+import FoodEditor from '../components/foods/FoodEditor';
+export default function FoodCreate() { return <FoodEditor />; }

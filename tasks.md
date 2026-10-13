@@ -101,28 +101,30 @@ Amirbekning to‘rtta sahifasi 375/768/1440 px o‘lchamlarda brauzerda tekshiri
 ## Salahitdinov
 
 ### 14. Foods (#18)
-- [ ] Taomlar kartochkalari: rasm, nom, kategoriya, narx, reyting
-- [ ] Kategoriya bo'yicha filtr va qidiruv
-- [ ] Ro'yxat / setka ko'rinishi
-- [ ] Kartochkani bosganda Food Detail ochiladi
+- [x] Taomlar kartochkalari: rasm, nom, kategoriya, narx, reyting
+- [x] Kategoriya bo'yicha filtr va qidiruv
+- [x] Ro'yxat / setka ko'rinishi
+- [x] Kartochkani bosganda Food Detail ochiladi
 
 ### 15. Taom qo'shish va tahrirlash (#19)
-- [ ] Forma: nom, kategoriya, narx, tavsif, rasm yuklash
-- [ ] Maydonlarni tekshirish (bo'sh, noto'g'ri narx)
-- [ ] Tahrirlash va o'chirish (tasdiqlash bilan)
+- [x] Forma: nom, kategoriya, narx, tavsif, rasm yuklash
+- [x] Maydonlarni tekshirish (bo'sh, noto'g'ri narx)
+- [x] Tahrirlash va o'chirish (tasdiqlash bilan)
 
 ### 16. Food Detail (#20)
-- [ ] Katta rasm, nom, narx, tavsif, tarkibi
-- [ ] Sotuv statistikasi: bu oy nechta sotildi, daromad
-- [ ] Shu taom sharhlari
-- [ ] Tahrirlash tugmasi
+- [x] Katta rasm, nom, narx, tavsif, tarkibi
+- [x] Sotuv statistikasi: bu oy nechta sotildi, daromad
+- [x] Shu taom sharhlari
+- [x] Tahrirlash tugmasi
 
 ### 17. Analytics (#21)
-- [ ] Daromad grafigi (kun / hafta / oy)
-- [ ] Eng ko'p sotilgan taomlar
-- [ ] Buyurtmalar soni grafigi
-- [ ] Mijozlar soni o'sishi
-- [ ] Davr tanlash
+- [x] Daromad grafigi (kun / hafta / oy)
+- [x] Eng ko'p sotilgan taomlar
+- [x] Buyurtmalar soni grafigi
+- [x] Mijozlar soni o'sishi
+- [x] Davr tanlash
+
+Salahitdinov tekshiruvi (2026-10-13): Foods, yaratish/tahrirlash, Food Detail va Analytics bajarildi. Rasm yuklash, CRUD va qayta yuklashdan keyingi saqlanish, kun/hafta/oy, 375/768/1440 px brauzer tekshiruvi bajarildi. Jami 29 ta test va production build o‘tdi. [Tekshiruv qaydlari](docs/salah-checklist.md). Sedap SVG logosi va favicon ham qo‘shildi.
 
 > Akbar paneli: komponentlar, Login, Dashboard va Wallet kodi yozildi. 3 ta login testi o‘tdi. Production build va brauzer/mobil tekshiruvlari ushbu muhitda yakunlanmadi; merge oldidan tekshiriladi.
 

@@ -1,2 +1,3 @@
-import PlaceholderPage from '../components/PlaceholderPage';
-export default function FoodEdit() { return <PlaceholderPage title="Taomni tahrirlash" owner="Salahitdinov" issue={19} />; }
+import { useParams } from 'react-router-dom';
+import FoodEditor from '../components/foods/FoodEditor';
+export default function FoodEdit() { const { id } = useParams(); return <FoodEditor key={id} editing />; }
