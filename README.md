@@ -165,6 +165,6 @@ Integratsiya tekshiruvi: 22 ta test o‘tdi. Brauzerda yangi mijoz/buyurtma havo
 
 Eski buyurtmalarda taom IDlari qayta ishlatilgani uchun taomlar nom va oldingi nomlari orqali bog‘langan. Nom yoki narx o‘zgarganda tarixiy xaridlar o‘zgarmaydi. Menyudan o‘chirilgan taomlarning oldingi buyurtmalari statistikada saqlanadi. Backend va qurilmalararo sinxronlash mavjud emas.
 
-29 ta test va production build o‘tdi. Mobil tekshiruv va hisoblash qoidalari: [docs/salah-checklist.md](docs/salah-checklist.md).
+30 ta test va production build o‘tdi. Mobil tekshiruv va hisoblash qoidalari: [docs/salah-checklist.md](docs/salah-checklist.md).
 
-Logo fayllari: `public/brand/sedap-logo.svg` (to‘liq logo), `public/brand/sedap-mark.svg` (belgi/favicon). Taom illustratsiyalari `public/images/foods/`da; tashqi rasm servisi talab qilinmaydi.
+Logo fayllari: `public/brand/sedap-logo.svg` (to‘liq logo), `public/brand/sedap-mark.svg` (belgi/favicon). ImageGen bilan yaratilgan fotorealistik taom rasmlari `public/images/foods/`da; tashqi rasm servisi talab qilinmaydi.

@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import initial from '../data/foods.json';
 import { categories } from '../utils/foods';
+import { migrateFoodImages } from '../utils/foodImages';
 const key = 'sedap-salah-v1-foods';
 const valid = food => food && typeof food.id === 'string' && typeof food.name === 'string' && categories.includes(food.category) && Number.isFinite(food.price) && food.price > 0 && typeof food.description === 'string' && Array.isArray(food.ingredients) && food.ingredients.every(item => typeof item === 'string') && typeof food.image === 'string' && Array.isArray(food.aliases) && food.aliases.every(item => typeof item === 'string');
 function load() {
@@ -8,7 +9,7 @@ function load() {
     const raw = localStorage.getItem(key);
     if (!raw) return { foods: initial, warning: '' };
     const saved = JSON.parse(raw);
-    if (Array.isArray(saved) && saved.every(valid)) return { foods: saved, warning: '' };
+    if (Array.isArray(saved) && saved.every(valid)) return { foods: migrateFoodImages(saved, initial), warning: '' };
     return { foods: initial, warning: 'Saqlangan menyu noto‘g‘ri. Demo menyu ko‘rsatildi.' };
   } catch { return { foods: initial, warning: 'Saqlangan menyuni o‘qib bo‘lmadi. Demo menyu ko‘rsatildi.' }; }
 }

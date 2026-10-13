@@ -2,8 +2,19 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { foodRecord, foodSales, foodRating, foodReviews, matchesFood, selectFoods, validateFood } from '../src/utils/foods.js';
+import { migrateFoodImages } from '../src/utils/foodImages.js';
 const read = name => JSON.parse(readFileSync(new URL('../src/data/' + name + '.json', import.meta.url)));
 const foods = read('foods');
+test('photo migration preserves edits, uploads and deleted dishes', () => {
+  const saved = [{ ...foods[0], name: 'My burger', price: 19, image: '/images/foods/burger.svg' }, { ...foods[7], image: '/images/foods/pizza.svg' }, { ...foods[1], image: 'data:image/png;base64,custom' }];
+  const result = migrateFoodImages(saved, foods);
+  assert.equal(result.length, 3);
+  assert.equal(result[0].name, 'My burger');
+  assert.equal(result[0].price, 19);
+  assert.equal(result[0].image, foods[0].image);
+  assert.equal(result[1].image, foods[7].image);
+  assert.equal(result[2].image, saved[2].image);
+});
 const values = { name: 'New meal', category: 'Main course', price: '12.50', description: 'A fresh meal with vegetables.', ingredients: 'Rice, chicken', image: '/images/foods/steak.svg' };
 test('menu categories, search and offline images are usable', () => {
   assert.ok(selectFoods(foods, ' CHICKEN ', 'Burger').length);

@@ -13,7 +13,7 @@
       "sous"
     ],
     "aliases": [],
-    "image": "/images/foods/burger.svg"
+    "image": "/images/foods/burger-photo.png"
   },
   {
     "id": "menu-pizza",
@@ -28,7 +28,7 @@
       "rayhon"
     ],
     "aliases": [],
-    "image": "/images/foods/pizza.svg"
+    "image": "/images/foods/pizza-photo.png"
   },
   {
     "id": "menu-salad",
@@ -44,7 +44,7 @@
       "sous"
     ],
     "aliases": [],
-    "image": "/images/foods/salad.svg"
+    "image": "/images/foods/salad-photo.png"
   },
   {
     "id": "menu-steak",
@@ -59,7 +59,7 @@
       "sabzavotlar"
     ],
     "aliases": [],
-    "image": "/images/foods/steak.svg"
+    "image": "/images/foods/steak-photo.png"
   },
   {
     "id": "menu-pasta",
@@ -74,7 +74,7 @@
       "sarimsoq"
     ],
     "aliases": [],
-    "image": "/images/foods/pasta.svg"
+    "image": "/images/foods/pasta-photo.png"
   },
   {
     "id": "menu-cake",
@@ -89,7 +89,7 @@
       "sariyog‘"
     ],
     "aliases": [],
-    "image": "/images/foods/cake.svg"
+    "image": "/images/foods/cake-photo.png"
   },
   {
     "id": "menu-tea",
@@ -104,7 +104,7 @@
       "asal"
     ],
     "aliases": [],
-    "image": "/images/foods/tea.svg"
+    "image": "/images/foods/tea-photo.png"
   },
   {
     "id": "menu-veggie",
@@ -120,6 +120,6 @@
       "mozzarella"
     ],
     "aliases": [],
-    "image": "/images/foods/pizza.svg"
+    "image": "/images/foods/garden-pizza-photo.png"
   }
 ]

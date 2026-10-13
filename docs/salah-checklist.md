@@ -2,7 +2,7 @@
 
 2026-10-13. #18–#21 vazifalari.
 
-- [x] 8 ta demo taom: mahalliy SVG rasm, nom, kategoriya, narx va sharhlardan hisoblangan reyting.
+- [x] 8 ta demo taom: mahalliy fotorealistik PNG rasm, nom, kategoriya, narx va sharhlardan hisoblangan reyting.
 - [x] Qidiruv + kategoriya filtri; setka/ro‘yxat; sahifalash; kartochkadan tafsilotga o‘tish.
 - [x] Bo‘sh maydonlar, noto‘g‘ri narx, takroriy nom va rasm tekshiruvlari.
 - [x] TXT yuklash rad etildi; PNG yuklash va yangi taom yaratish tekshirildi.
@@ -21,4 +21,4 @@ Ma’lumotlar frontend demo sifatida brauzerda saqlanadi. Menyu uchun `sedap-sal
 
 Buyurtmalarda `food-1` kabi eski IDlar turli taomlar uchun qayta ishlatilgani sababli statistika normalizatsiyalangan nom va saqlangan oldingi nomlar orqali bog‘langan. Taom nomi/narxi tahrirlanganda oldingi buyurtma narxlari va sharhlar saqlanadi. Menyudan o‘chirish buyurtmalar tarixini o‘chirmaydi. Bekor qilingan, yangi va tayyorlanayotgan buyurtmalar tushumga kiritilmaydi. Analytics daromadi yetkazish haqini o‘z ichiga oladi; taom daromadi faqat o‘sha taom summasi. Sana chegaralari Toshkent vaqtida olinadi.
 
-Chegaralar: backend, haqiqiy upload serveri, qurilmalararo sinxronlash va deploy mavjud emas. XD fayli bilan piksel darajasidagi taqqoslash va haqiqiy telefon klaviaturasi ochilgandagi ko‘rinish tekshirilmagan. Demo taom rasmlari shu repo uchun yaratilgan SVG illustratsiyalar.
+Chegaralar: backend, haqiqiy upload serveri, qurilmalararo sinxronlash va deploy mavjud emas. XD fayli bilan piksel darajasidagi taqqoslash va haqiqiy telefon klaviaturasi ochilgandagi ko‘rinish tekshirilmagan. Demo taom rasmlari ImageGen bilan yaratilgan fotorealistik tasvirlar; promptlar docs/food-photo-prompts.md faylida.
