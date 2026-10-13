@@ -168,3 +168,5 @@ Eski buyurtmalarda taom IDlari qayta ishlatilgani uchun taomlar nom va oldingi n
 30 ta test va production build o‘tdi. Mobil tekshiruv va hisoblash qoidalari: [docs/salah-checklist.md](docs/salah-checklist.md).
 
 Logo fayllari: `public/brand/sedap-logo.svg` (to‘liq logo), `public/brand/sedap-mark.svg` (belgi/favicon). ImageGen bilan yaratilgan fotorealistik taom rasmlari `public/images/foods/`da; tashqi rasm servisi talab qilinmaydi.
+
+`/settings`: kunduzgi, tungi va qurilma rejimiga mos ko‘rinish. Yuqoridagi tishli belgi sozlamalarni ochadi; oy/quyosh tugmasi rejimni tez almashtiradi. Tanlov `sedap-theme` kalitida saqlanadi. Tizimga mos rejim qurilma ko‘rinishi o‘zgarganda yangilanadi. Sozlamalar va umumiy sahifalar tungi ranglarga moslangan; 375 px ko‘rinish va reload’dan keyingi saqlanish brauzerda tekshirildi.

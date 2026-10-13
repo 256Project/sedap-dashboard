@@ -1,8 +1,8 @@
 import Brand from '../Brand';
 import { NavLink, useLocation } from 'react-router-dom';
 import { isMenuActive } from '../../utils/navigation';
-import { LayoutDashboard, ListOrdered, ClipboardList, Users, ChartNoAxesCombined, Star, Utensils, Soup, UserRound, CalendarDays, MessagesSquare, Wallet, X } from 'lucide-react';
-const items = [['Dashboard', '/dashboard', LayoutDashboard], ['Order List', '/orders', ListOrdered], ['Order Detail', '/orders/demo', ClipboardList], ['Customer', '/customers', Users], ['Analytics', '/analytics', ChartNoAxesCombined], ['Reviews', '/reviews', Star], ['Foods', '/foods', Utensils], ['Food Detail', '/foods/demo', Soup], ['Customer Detail', '/customers/demo', UserRound], ['Calendar', '/calendar', CalendarDays], ['Chat', '/chat', MessagesSquare], ['Wallet', '/wallet', Wallet]];
+import { LayoutDashboard, ListOrdered, ClipboardList, Users, ChartNoAxesCombined, Star, Utensils, Soup, UserRound, CalendarDays, MessagesSquare, Wallet, Settings, X } from 'lucide-react';
+const items = [['Dashboard', '/dashboard', LayoutDashboard], ['Order List', '/orders', ListOrdered], ['Order Detail', '/orders/demo', ClipboardList], ['Customer', '/customers', Users], ['Analytics', '/analytics', ChartNoAxesCombined], ['Reviews', '/reviews', Star], ['Foods', '/foods', Utensils], ['Food Detail', '/foods/demo', Soup], ['Customer Detail', '/customers/demo', UserRound], ['Calendar', '/calendar', CalendarDays], ['Chat', '/chat', MessagesSquare], ['Wallet', '/wallet', Wallet], ['Sozlamalar', '/settings', Settings]];
 export default function Sidebar({
   open,
   onClose,
