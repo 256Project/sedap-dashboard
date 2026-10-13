@@ -4,8 +4,8 @@
     "date": "2026-10-13T10:00:00+05:00",
     "customer": {
       "name": "Aziz Karimov",
-      "phone": "+998 90 123 40 67",
-      "address": "Amir Temur ko‘chasi, 18, Toshkent",
+      "phone": "+998 90 120 10 20",
+      "address": "Tashkent, Chilonzor 12",
       "lat": 41.3111,
       "lng": 69.2797
     },
@@ -30,7 +30,8 @@
         "status": "new",
         "at": "2026-10-13T10:00:00+05:00"
       }
-    ]
+    ],
+    "customerId": "CUS-001"
   },
   {
     "id": "1002",
@@ -67,15 +68,16 @@
         "status": "preparing",
         "at": "2026-10-13T06:10:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-013"
   },
   {
     "id": "1003",
     "date": "2026-10-13T12:00:00+05:00",
     "customer": {
       "name": "Jasur Aliyev",
-      "phone": "+998 90 123 42 67",
-      "address": "Shota Rustaveli ko‘chasi, 41, Toshkent",
+      "phone": "+998 90 122 12 22",
+      "address": "Samarkand, Registon 8",
       "lat": 41.3271,
       "lng": 69.2557
     },
@@ -108,7 +110,8 @@
         "status": "delivered",
         "at": "2026-10-13T08:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-003"
   },
   {
     "id": "1004",
@@ -145,7 +148,8 @@
         "status": "cancelled",
         "at": "2026-10-12T09:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-014"
   },
   {
     "id": "1005",
@@ -178,7 +182,8 @@
         "status": "new",
         "at": "2026-10-12T14:00:00+05:00"
       }
-    ]
+    ],
+    "customerId": "CUS-015"
   },
   {
     "id": "1006",
@@ -215,7 +220,8 @@
         "status": "preparing",
         "at": "2026-10-12T10:10:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-016"
   },
   {
     "id": "1007",
@@ -256,7 +262,8 @@
         "status": "delivered",
         "at": "2026-10-11T12:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-017"
   },
   {
     "id": "1008",
@@ -293,7 +300,8 @@
         "status": "cancelled",
         "at": "2026-10-11T06:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-018"
   },
   {
     "id": "1009",
@@ -326,7 +334,8 @@
         "status": "new",
         "at": "2026-10-11T11:00:00+05:00"
       }
-    ]
+    ],
+    "customerId": "CUS-019"
   },
   {
     "id": "1010",
@@ -363,7 +372,8 @@
         "status": "preparing",
         "at": "2026-10-10T07:10:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-020"
   },
   {
     "id": "1011",
@@ -404,7 +414,8 @@
         "status": "delivered",
         "at": "2026-10-10T09:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-021"
   },
   {
     "id": "1012",
@@ -441,7 +452,8 @@
         "status": "cancelled",
         "at": "2026-10-10T10:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-022"
   },
   {
     "id": "1013",
@@ -474,7 +486,8 @@
         "status": "new",
         "at": "2026-10-09T15:00:00+05:00"
       }
-    ]
+    ],
+    "customerId": "CUS-023"
   },
   {
     "id": "1014",
@@ -511,7 +524,8 @@
         "status": "preparing",
         "at": "2026-10-09T11:10:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-024"
   },
   {
     "id": "1015",
@@ -552,7 +566,8 @@
         "status": "delivered",
         "at": "2026-10-09T06:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-025"
   },
   {
     "id": "1016",
@@ -589,7 +604,8 @@
         "status": "cancelled",
         "at": "2026-10-08T07:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-026"
   },
   {
     "id": "1017",
@@ -622,7 +638,8 @@
         "status": "new",
         "at": "2026-10-08T12:00:00+05:00"
       }
-    ]
+    ],
+    "customerId": "CUS-027"
   },
   {
     "id": "1018",
@@ -659,7 +676,8 @@
         "status": "preparing",
         "at": "2026-10-08T08:10:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-028"
   },
   {
     "id": "1019",
@@ -700,7 +718,8 @@
         "status": "delivered",
         "at": "2026-10-07T10:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-029"
   },
   {
     "id": "1020",
@@ -737,6 +756,7 @@
         "status": "cancelled",
         "at": "2026-10-07T11:00:00.000Z"
       }
-    ]
+    ],
+    "customerId": "CUS-030"
   }
 ]

@@ -139,7 +139,7 @@ Mobil tekshiruv ro‘yxati: [docs/mobile-checklist.md](docs/mobile-checklist.md)
 
 ## Amirbek — mijozlar, sharhlar va chat
 
-- `/customers`: 12 ta demo mijoz, qidiruv, saralash, sahifalash, validatsiyali qo‘shish va tasdiqlash orqali o‘chirish.
+- `/customers`: 30 ta demo mijoz, qidiruv, saralash, sahifalash, validatsiyali qo‘shish va tasdiqlash orqali o‘chirish.
 - `/customers/:id`: profil, balans, sevimli taomlar, buyurtmalar tarixi va oylik xarid grafigi. `/customers/demo` birinchi mavjud mijozni ochadi; noma’lum yoki o‘chirilgan ID uchun bo‘sh holat mavjud.
 - `/reviews`: reyting kartochkasi, yulduzlar, qidiruv, reyting filtri, sahifalash, javob yozish va tahrirlash.
 - `/chat`: suhbat qidiruvi, o‘qilmaganlar, yozishmalar va xabar yuborish. Enter yuboradi, Shift+Enter yangi qator qo‘shadi. Har bir suhbatning qoralamasi navigatsiya qilinmaguncha alohida saqlanadi.
@@ -147,3 +147,11 @@ Mobil tekshiruv ro‘yxati: [docs/mobile-checklist.md](docs/mobile-checklist.md)
 Boshlang‘ich ma’lumotlar: `customers.json`, `reviews.json`, `conversations.json`. O‘zgarishlar shu brauzerning `localStorage`ida `sedap-amirbek-v1-*` kalitlari bilan saqlanadi; boshqa qurilma yoki foydalanuvchi bilan sinxronlanmaydi. Chat frontend demo, xabarlar haqiqiy mijozga yuborilmaydi. localStorage yozish xatosi foydalanuvchiga ko‘rsatiladi.
 
 Amirbekning to‘rtta sahifasi 375/768/1440 px o‘lchamlarda tekshirildi, 11 ta test va production build o‘tdi. [Tekshiruv qaydlari](docs/amirbek-checklist.md). Vite katta JS bundle haqida ogohlantiradi; build muvaffaqiyatli yakunlanadi. Deploy hali bajarilmagan.
+
+## Buyurtma va mijoz integratsiyasi
+
+20 ta buyurtma customerId orqali mijozga bog‘landi. Mavjud mijozlar va tarixlar saqlandi; buyurtmalardagi 18 ta qo‘shimcha mijoz ro‘yxatga qo‘shildi. Order Detaildan mijoz profiliga, Customer Detaildagi bog‘langan buyurtmadan Order Detailga o‘tish mumkin. Eski tarix yozuvlari o‘z holicha saqlanadi.
+
+Buyurtma statusi o‘zgargach, mijoz sahifasiga o‘tilganda tarixi va jami xaridi qayta hisoblanadi. Bekor qilingan buyurtmalar xarid summasiga kiritilmaydi. Eski buyurtma localStorage yozuvlariga customerId boshlang‘ich JSON orqali qo‘shiladi; status va timeline saqlanadi. Mijozlar storage kaliti sedap-amirbek-v2-customers: v1 yozuvlari bor bo‘lsa qo‘shimcha buyurtma mijozlari bilan moslashtiriladi, oldin o‘chirilgan mijozlar qayta tiklanmaydi. Boshqa sahifalarning storage kalitlari o‘zgarmaydi.
+
+Integratsiya tekshiruvi: 22 ta test o‘tdi. Brauzerda yangi mijoz/buyurtma havolalari va statusdan keyingi mijoz tarixini tekshirish kerak.

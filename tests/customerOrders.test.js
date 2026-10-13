@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { linkOrder, withCustomerOrders, migrateCustomers } from '../src/utils/customerOrders.js';
+const read=name=>JSON.parse(readFileSync(new URL('../src/data/'+name+'.json',import.meta.url),'utf8'));
+const orders=read('orders'); const customers=read('customers');
+test('every order refers to an existing customer with matching contact',()=>{for(const order of orders){const c=customers.find(c=>c.id===order.customerId);assert.ok(c);assert.equal(order.customer.name,c.name);assert.equal(order.customer.phone,c.phone);assert.equal(order.customer.address,c.address);}});
+test('old saved order receives customer ID without losing status or timeline',()=>{const {customerId,...legacy}=orders[0];legacy.status='cancelled';const result=linkOrder(legacy,orders,customers);assert.equal(result.customerId,customerId);assert.equal(result.status,'cancelled');assert.deepEqual(result.history,legacy.history);});
+test('customer history includes linked orders once, updates status, and preserves legacy history',()=>{const c=customers.find(c=>c.id===orders[0].customerId);const first=withCustomerOrders(c,orders);assert.ok(first.history.some(o=>o.id===orders[0].id&&o.linked));for(const old of c.history)assert.ok(first.history.some(o=>o.id===old.id));const updated=withCustomerOrders(first,orders.map(o=>({...o,status:'cancelled'})));assert.equal(updated.history.length,first.history.length);assert.equal(updated.history.find(o=>o.id===orders[0].id).status,'cancelled');assert.equal(updated.spent,updated.history.filter(o=>o.status!=='cancelled').reduce((s,o)=>s+o.total,0));});
+test('migration preserves additions and deletions from old customer storage',()=>{const legacy=customers.filter(c=>!c.source&&c.id!=='CUS-001');legacy.push({id:'custom-user',name:'Added customer'});const migrated=migrateCustomers(legacy,customers);assert.ok(!migrated.some(c=>c.id==='CUS-001'));assert.ok(migrated.some(c=>c.id==='custom-user'));assert.ok(migrated.some(c=>c.source==='order-integration'));assert.equal(new Set(migrated.map(c=>c.id)).size,migrated.length);});

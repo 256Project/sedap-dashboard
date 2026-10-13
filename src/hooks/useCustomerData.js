@@ -1,8 +1,17 @@
+import { migrateCustomers } from '../utils/customerOrders';
 import { useCallback, useRef, useState } from 'react';
 export function useCustomerData(key, initial) {
-  const storageKey = `sedap-amirbek-v1-${key}`;
+  const storageKey = key === 'customers' ? 'sedap-amirbek-v2-customers' : `sedap-amirbek-v1-${key}`;
   const [data, setData] = useState(() => {
-    try { const saved = JSON.parse(localStorage.getItem(storageKey)); return Array.isArray(saved) ? saved : initial; }
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey));
+      if (Array.isArray(saved)) return saved;
+      if (key === 'customers') {
+        const legacy = JSON.parse(localStorage.getItem('sedap-amirbek-v1-customers'));
+        if (Array.isArray(legacy)) return migrateCustomers(legacy, initial);
+      }
+      return initial;
+    }
     catch { return initial; }
   });
   const current = useRef(data);

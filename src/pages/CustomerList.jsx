@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { Plus, Trash2, Users, ShoppingBag, Wallet } from 'lucide-react';
 import { Card, Button, Input, Select, Table, Modal, Pagination } from '../components/ui';
 import { CustomerAvatar, CustomerHeading, StorageNotice } from '../components/customers/CustomerUI';
-import initial from '../data/customers.json';
-import { useCustomerData } from '../hooks/useCustomerData';
+
+import useLinkedCustomers from '../hooks/useLinkedCustomers';
 import { selectCustomers, validateCustomer } from '../utils/customers';
 import { money, number } from '../utils/format';
 const emptyForm = { name: '', phone: '', address: '' };
 export default function CustomerList() {
   const navigate = useNavigate();
-  const [customers, setCustomers, storageError] = useCustomerData('customers', initial);
+  const [customers, setCustomers, storageError] = useLinkedCustomers();
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState('name');
   const [page, setPage] = useState(1);
