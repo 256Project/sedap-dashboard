@@ -172,3 +172,11 @@ Eski buyurtmalarda taom IDlari qayta ishlatilgani uchun taomlar nom va oldingi n
 Logo fayllari: `public/brand/sedap-logo.svg` (to‘liq logo), `public/brand/sedap-mark.svg` (belgi/favicon). ImageGen bilan yaratilgan fotorealistik taom rasmlari `public/images/foods/`da; tashqi rasm servisi talab qilinmaydi.
 
 `/settings`: kunduzgi, tungi va qurilma rejimiga mos ko‘rinish. Yuqoridagi tishli belgi sozlamalarni ochadi; oy/quyosh tugmasi rejimni tez almashtiradi. Tanlov `sedap-theme` kalitida saqlanadi. Tizimga mos rejim qurilma ko‘rinishi o‘zgarganda yangilanadi. Sozlamalar va umumiy sahifalar tungi ranglarga moslangan; 375 px ko‘rinish va reload’dan keyingi saqlanish brauzerda tekshirildi.
+
+## Yakuniy optimallashtirish
+
+Sahifalar React.lazy va Suspense orqali alohida yuklanadi. Taom fotosuratlari 1000x667 JPEG formatida: jami 22 MB o‘rniga 1.12 MB. Eski menyu rasm yo‘llari avtomatik moslashtiriladi, foydalanuvchi yuklagan rasmlar saqlanadi.
+
+Release va Vercel tekshiruvi: [docs/release-checklist.md](docs/release-checklist.md). Deploy hali bajarilmagan.
+
+Optimallashtirilgan build tekshiruvi: 32 ta test o‘tdi; production build native config loader bilan muvaffaqiyatli tugadi. Asosiy JS 282.19 kB, eng katta chunk 366.67 kB; 500 kB ogohlantirish yo‘q. Ushbu o‘zgarishlarning brauzer va mobil vizual tekshiruvi hali bajarilmagan.

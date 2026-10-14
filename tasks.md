@@ -20,7 +20,7 @@ Bajarilgan punktga `[x]` qo'yiladi. Har bir vazifa GitHub Issues da ham bor: htt
 ### 3. Umumiy komponentlar (#7)
 - [x] Card, Button, Badge (status), Table, Modal, Input, Select, Pagination, Tabs
 - [x] Har biriga qisqa misol
-- [ ] Boshqalar shu komponentlarni ishlatadi
+- [x] Boshqalar shu komponentlarni ishlatadi
 
 ### 4. Login sahifasi (#8)
 - [x] Email va parol bilan kirish formasi

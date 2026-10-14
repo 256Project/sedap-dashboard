@@ -44,3 +44,5 @@
   .stat-card > div:last-child { min-width: 0; }
   .stat-value { overflow-wrap: anywhere; }
 }
+
+.route-loading { min-height: 45vh; display: grid; place-items: center; padding: 32px; color: #00a36c; font-weight: 600; }
