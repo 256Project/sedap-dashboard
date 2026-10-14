@@ -48,3 +48,14 @@ test('food sales use delivered line items and local months, preserving historica
   assert.deepEqual(foodSales({ ...foods[0], price: 100 }, orders, '2026-10-13'), { quantity: 2, revenue: 16 });
   assert.deepEqual(foodSales(foods[0], orders, '2026-11-01'), { quantity: 0, revenue: 0 });
 });
+
+test('compressed photo migration retains custom uploads and prior edits', () => {
+  const previous = { ...foods[0], name: 'Edited name', price: 27, image: foods[0].image.replace(/\.jpg$/, '.png') };
+  const custom = { ...foods[1], image: 'data:image/jpeg;base64,upload' };
+  const result = migrateFoodImages([previous, custom], foods);
+  assert.equal(result[0].image, foods[0].image);
+  assert.equal(result[0].name, 'Edited name');
+  assert.equal(result[0].price, 27);
+  assert.equal(result[1].image, custom.image);
+  assert.equal(result.length, 2);
+});

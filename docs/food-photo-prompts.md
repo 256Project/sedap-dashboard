@@ -2,7 +2,7 @@ Generated with built-in ImageGen. These are AI-generated photorealistic menu ima
 
 ## burger
 
-Asset: public/images/foods/burger-photo.png
+Asset: public/images/foods/burger-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -14,7 +14,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## pizza
 
-Asset: public/images/foods/pizza-photo.png
+Asset: public/images/foods/pizza-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -26,7 +26,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## salad
 
-Asset: public/images/foods/salad-photo.png
+Asset: public/images/foods/salad-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -38,7 +38,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## steak
 
-Asset: public/images/foods/steak-photo.png
+Asset: public/images/foods/steak-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -50,7 +50,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## pasta
 
-Asset: public/images/foods/pasta-photo.png
+Asset: public/images/foods/pasta-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -62,7 +62,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## cake
 
-Asset: public/images/foods/cake-photo.png
+Asset: public/images/foods/cake-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -74,7 +74,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## tea
 
-Asset: public/images/foods/tea-photo.png
+Asset: public/images/foods/tea-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
@@ -86,7 +86,7 @@ Constraints: no text, logos, people, hands or watermark.
 
 ## garden-pizza
 
-Asset: public/images/foods/garden-pizza-photo.png
+Asset: public/images/foods/garden-pizza-photo.jpg
 
 Use case: photorealistic-natural
 Asset type: restaurant menu food photograph
